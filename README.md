@@ -1,2 +1,10 @@
-# test-automation-masterwork
-This is my GreenFoxAcademy WasterMork in the test automation course
+# MasterWork
+This is my GreenFoxAcademy WasterMork in the Test Automation Course
+
+A tesztelésre választott webalkalmazásom az [Opencart](http://test-automation-shop2.greenfox.academy/).
+
+Az automata tesztek futtatásának módja:
+//uploading..
+
+[Manuális [teszteseteim](https://docs.google.com/spreadsheets/d/1JYA9XmNi5G1CBYqeW2inXdZNMm9DwYv0/edit#gid=1037144427)][ Allure teszt [report//*$under_construction](https://) ]
+ 
