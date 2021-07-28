@@ -2,6 +2,7 @@ package Pages;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,13 +60,15 @@ public class RegisterPage extends BasePage {
   @Step("The registration page should load successfully")
   public boolean isLoaded() {
     LOG.info("The registration page loaded success");
-    return driver.getCurrentUrl().equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/register");
+    return driver.getCurrentUrl()
+        .equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/register");
   }
 
   @Step("The sign up should success")
   public void signUpSucessfully() {
     LOG.info("Check sign up page is loaded success");
-    assertThat(signUpSuccess.getText()).isEqualTo("Congratulations! Your new account has been successfully created!");
+    assertThat(signUpSuccess.getText())
+        .isEqualTo("Congratulations! Your new account has been successfully created!");
   }
 
   @Step("The sign up should unsuccess")

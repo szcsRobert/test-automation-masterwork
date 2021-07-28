@@ -16,6 +16,9 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a")
   WebElement myAccountRegister;
 
+  @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a")
+  WebElement myAccountLogin;
+
   public HomePage() {
   }
 
@@ -36,10 +39,17 @@ public class HomePage extends BasePage {
   }
 
   @Step("The registration page should open")
-  public void openRegisterPage(){
+  public void openRegisterPage() {
     LOG.info("The registration page loaded success");
     myAccount.click();
     myAccountRegister.click();
+  }
+
+  @Step("The login page should open")
+  public void openLoginPage() {
+    LOG.info("The login page loaded success");
+    myAccount.click();
+    myAccountLogin.click();
   }
 
 }

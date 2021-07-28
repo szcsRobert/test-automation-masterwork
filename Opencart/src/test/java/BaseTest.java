@@ -38,7 +38,7 @@ public class BaseTest {
     } else if (browser.equals("firefox")) {
       WebDriverManager.firefoxdriver().setup();
       this.driver = new FirefoxDriver();
-    } else  {
+    } else {
       WebDriverManager.edgedriver().setup();
       this.driver = new EdgeDriver();
     }

@@ -12,17 +12,16 @@ public class TC_1_2_Register extends BaseTest {
 
   @Test
   @Feature("Register")
-  @DisplayName("This should sign up a new User on the page")
+  @DisplayName("This should sign up a new user on the page")
   @Description("This test is make a success register with valid values, and with Your Account Has Been Created! - message")
   public void signUp() {
     HomePage homePage = new HomePage(driver);
     RegisterPage registerPage = new RegisterPage(driver);
 
     homePage.open();
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     homePage.isLoaded();
+
     homePage.openRegisterPage();
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     registerPage.isLoaded();
 
     registerPage.signUp("Trefa",
@@ -30,9 +29,7 @@ public class TC_1_2_Register extends BaseTest {
         "asdg3@gmail.com",
         "2132131",
         "asddsa");
-
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
     registerPage.signUpSucessfully();
   }
 
