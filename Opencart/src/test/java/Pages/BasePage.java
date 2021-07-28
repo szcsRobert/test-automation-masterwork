@@ -1,27 +1,29 @@
 package Pages;
 
-import org.openqa.selenium.By;
+import java.time.Duration;
+import java.util.Properties;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
 
 public class BasePage {
-  protected final WebDriver driver;
-  protected final WebDriverWait wait;
+  protected WebDriver driver;
+  protected WebDriverWait wait;
+  protected Logger LOG;
 
   public BasePage() {
     this.driver = new ChromeDriver();
-    this.wait = new WebDriverWait(driver, 5);
+    this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+    //this.LOG = LoggerFactory.getLogger(cls);
+    PageFactory.initElements(driver, this);
   }
 
   public BasePage(WebDriver driver) {
     this.driver = driver;
-    this.wait = new WebDriverWait(driver, 5);
-  }
-
-  protected WebElement find(By locator) {
-    return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+   // this.LOG = LoggerFactory.getLogger(cls);
+    PageFactory.initElements(driver, this);
   }
 }
