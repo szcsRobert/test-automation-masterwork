@@ -66,7 +66,7 @@ public class RegisterPage extends BasePage {
   }
 
   @Step("The sign up should success")
-  public void signUpSucessfully() {
+  public void signUpSuccessfully() {
     LOG.info("Check sign up page is loaded success");
     assertThat(signUpSuccess.getText())
         .isEqualTo("Congratulations! Your new account has been successfully created!");

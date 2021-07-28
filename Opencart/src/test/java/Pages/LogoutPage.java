@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class LogoutPage extends BasePage {
-  private static final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
+  private static final Logger LOG = LoggerFactory.getLogger(LogoutPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/h1")
   WebElement logoutSuccess;

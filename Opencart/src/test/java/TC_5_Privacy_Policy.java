@@ -29,6 +29,6 @@ public class TC_5_Privacy_Policy extends BaseTest {
         "asdg52+2@gmail.com",
         "2132131",
         "asddsa");
-    registerPage.signUpSucessfully();
+    registerPage.signUpSuccessfully();
   }
 }

@@ -30,7 +30,7 @@ public class TC_1_2_Register extends BaseTest {
         "2132131",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    registerPage.signUpSucessfully();
+    registerPage.signUpSuccessfully();
   }
 
 
@@ -59,5 +59,4 @@ public class TC_1_2_Register extends BaseTest {
 
     registerPage.signUpFailed();
   }
-
 }

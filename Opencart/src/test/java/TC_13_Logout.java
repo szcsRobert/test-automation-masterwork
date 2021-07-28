@@ -29,7 +29,7 @@ public class TC_13_Logout extends BaseTest {
     loginPage.login("probapet@gmail.com",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    loginPage.loginSucessfully();
+    loginPage.loginSuccessfully();
 
     homePage.myAccountLogout();
     logoutPage.logoutSuccessfully();

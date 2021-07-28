@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MyAccountPage extends BasePage {
-  private static final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
+  private static final Logger LOG = LoggerFactory.getLogger(MyAccountPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[1]/a")
   WebElement editYourAccount;

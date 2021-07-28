@@ -25,6 +25,12 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[7]/a")
   WebElement categoryCameras;
 
+  @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/a")
+  WebElement categoryDesktops;
+
+  @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a")
+  WebElement categoryDesktopsShowAll;
+
   public HomePage() {
   }
 
@@ -69,5 +75,12 @@ public class HomePage extends BasePage {
   public void openCamerasPage() {
     LOG.info("The category of cameras page loaded success");
     categoryCameras.click();
+  }
+
+  @Step("Show all desktops page should open")
+  public void openDesktopsPage() {
+    LOG.info("Show all desktops page loaded success");
+    categoryDesktops.click();
+    categoryDesktopsShowAll.click();
   }
 }

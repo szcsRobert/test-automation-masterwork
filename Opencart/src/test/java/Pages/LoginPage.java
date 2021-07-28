@@ -44,7 +44,7 @@ public class LoginPage extends HomePage {
   }
 
   @Step("The login should success")
-  public void loginSucessfully() {
+  public void loginSuccessfully() {
     LOG.info("Check login page is loaded success");
     assertThat(loginSuccess.getText())
         .isEqualTo("My Account");

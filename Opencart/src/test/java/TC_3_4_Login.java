@@ -28,7 +28,7 @@ public class TC_3_4_Login extends BaseTest {
     loginPage.login("probapet@gmail.com",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    loginPage.loginSucessfully();
+    loginPage.loginSuccessfully();
   }
 
   @Test

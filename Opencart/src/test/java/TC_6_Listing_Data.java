@@ -24,7 +24,5 @@ public class TC_6_Listing_Data extends BaseTest {
     homePage.openCamerasPage();
     camerasPage.isLoaded();
     camerasPage.checkCanonEos5D();
-
   }
-
 }
