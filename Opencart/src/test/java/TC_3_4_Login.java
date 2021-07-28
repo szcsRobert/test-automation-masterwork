@@ -1,5 +1,6 @@
 import Pages.HomePage;
 import Pages.LoginPage;
+import Pages.MyAccountPage;
 import Pages.RegisterPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -18,6 +19,7 @@ public class TC_3_4_Login extends BaseTest {
   public void login() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
+    MyAccountPage myAccountPage = new MyAccountPage(driver);
 
     homePage.open();
     homePage.isLoaded();
@@ -28,7 +30,7 @@ public class TC_3_4_Login extends BaseTest {
     loginPage.login("probapet@gmail.com",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    loginPage.loginSuccessfully();
+    myAccountPage.isLoaded();
   }
 
   @Test

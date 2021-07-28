@@ -1,12 +1,12 @@
 {
-  "uid" : "42c00df734aa81f9",
+  "uid" : "7b186b5af1db56de",
   "name" : "This should sign up with privacy policy",
   "fullName" : "TC_5_Privacy_Policy.signUpWithPpCheck",
   "historyId" : "f8966b582e9875249b305f8d9ef78f37",
   "time" : {
-    "start" : 1627504522787,
-    "stop" : 1627504534000,
-    "duration" : 11213
+    "start" : 1627508379030,
+    "stop" : 1627508392572,
+    "duration" : 13542
   },
   "description" : "This test is make a success register with valid values, and with open the privacy policy",
   "descriptionHtml" : "<p>This test is make a success register with valid values, and with open the privacy policy</p>\n",
@@ -19,85 +19,85 @@
     "steps" : [ {
       "name" : "Your Store should open",
       "time" : {
-        "start" : 1627504526512,
-        "stop" : 1627504528314,
-        "duration" : 1802
+        "start" : 1627508382897,
+        "stop" : 1627508384801,
+        "duration" : 1904
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The home page should load successfully",
       "time" : {
-        "start" : 1627504528314,
-        "stop" : 1627504528338,
-        "duration" : 24
+        "start" : 1627508384801,
+        "stop" : 1627508384816,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The registration page should open",
       "time" : {
-        "start" : 1627504528338,
-        "stop" : 1627504529873,
-        "duration" : 1535
+        "start" : 1627508384816,
+        "stop" : 1627508387011,
+        "duration" : 2195
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The registration page should load successfully",
       "time" : {
-        "start" : 1627504529873,
-        "stop" : 1627504529905,
-        "duration" : 32
+        "start" : 1627508387011,
+        "stop" : 1627508387155,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The sign up should success",
       "time" : {
-        "start" : 1627504533546,
-        "stop" : 1627504533674,
-        "duration" : 128
+        "start" : 1627508392042,
+        "stop" : 1627508392271,
+        "duration" : 229
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -111,7 +111,7 @@
     "value" : "DESKTOP-UP60NKH"
   }, {
     "name" : "thread",
-    "value" : "5972@DESKTOP-UP60NKH.Test worker(11)"
+    "value" : "8128@DESKTOP-UP60NKH.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "TC_5_Privacy_Policy"
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "42c00df734aa81f9.json",
+  "source" : "7b186b5af1db56de.json",
   "parameterValues" : [ ]
 }

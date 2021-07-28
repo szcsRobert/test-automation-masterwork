@@ -1,5 +1,5 @@
 {
-  "total" : 7,
+  "total" : 8,
   "items" : [ {
     "uid" : "bed22fb669874e47ec4ddc15dee3ed6a",
     "name" : "TC_1_2_Register",
@@ -21,6 +21,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "4ab87e4a2dcffbbfb5de52444a63afe5",
+    "name" : "TC_10_Existing_Data_Modification",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "56d2047cb21ba192e950bfb45e9c950d",

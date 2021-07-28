@@ -79,7 +79,8 @@ public class RegisterPage extends BasePage {
     assertThat(signUpFailed.isDisplayed());
   }
 
-  public void signUp(String fName, String lName, String telephone, String pswd, String pswdConfirm) {
+  public void signUp(String fName, String lName, String telephone, String pswd,
+                     String pswdConfirm) {
     LOG.info("signUp() called");
     LOG.trace("firstname=" + fName + "lastname=" + lName);
     firstNameField.sendKeys(fName);
@@ -87,7 +88,7 @@ public class RegisterPage extends BasePage {
     Random randomGenerator = new Random();
     int randomInt = randomGenerator.nextInt(1000);
     LOG.trace("email=" + fName + randomInt + "@gmail.com");
-    emailField.sendKeys(fName+ randomInt +"@gmail.com");
+    emailField.sendKeys(fName + randomInt + "@gmail.com");
     LOG.trace("phonenumber=" + telephone);
     telephoneField.sendKeys(telephone);
     LOG.trace("password=" + pswd);
@@ -109,7 +110,7 @@ public class RegisterPage extends BasePage {
     Random randomGenerator = new Random();
     int randomInt = randomGenerator.nextInt(1000);
     LOG.trace("email=" + fName + randomInt + "@gmail.com");
-    emailField.sendKeys(fName+ randomInt +"@gmail.com");
+    emailField.sendKeys(fName + randomInt + "@gmail.com");
     LOG.trace("phonenumber=" + telephone);
     telephoneField.sendKeys(telephone);
     LOG.trace("password=" + pswd);

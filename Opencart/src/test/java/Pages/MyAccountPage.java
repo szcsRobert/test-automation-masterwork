@@ -16,6 +16,9 @@ public class MyAccountPage extends BasePage {
   @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[1]/a")
   WebElement editYourAccount;
 
+  @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[3]/a")
+  WebElement modifyYourAdress;
+
   public MyAccountPage() {
   }
 
@@ -28,5 +31,11 @@ public class MyAccountPage extends BasePage {
     LOG.info("My Account page loaded success");
     return driver.getCurrentUrl()
         .equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/account");
+  }
+
+  @Step("Modify your address book entries should open")
+  public void openModifyYourAdress() {
+    LOG.info("Modify your address book entries page is loaded");
+    modifyYourAdress.click();
   }
 }

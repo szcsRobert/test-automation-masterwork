@@ -1,6 +1,7 @@
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.LogoutPage;
+import Pages.MyAccountPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -18,6 +19,7 @@ public class TC_13_Logout extends BaseTest {
   public void logout() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
+    MyAccountPage myAccountPage = new MyAccountPage(driver);
     LogoutPage logoutPage = new LogoutPage(driver);
 
     homePage.open();
@@ -29,7 +31,7 @@ public class TC_13_Logout extends BaseTest {
     loginPage.login("probapet@gmail.com",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    loginPage.loginSuccessfully();
+    myAccountPage.isLoaded();
 
     homePage.myAccountLogout();
     logoutPage.logoutSuccessfully();

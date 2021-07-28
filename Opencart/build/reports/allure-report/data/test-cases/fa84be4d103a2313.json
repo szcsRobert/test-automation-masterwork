@@ -1,12 +1,12 @@
 {
-  "uid" : "a4adb5fa6182db39",
+  "uid" : "fa84be4d103a2313",
   "name" : "This should list cameras",
   "fullName" : "TC_6_Listing_Data.listingCamerasData",
   "historyId" : "91fdda1b7681601cb8077ea383364e61",
   "time" : {
-    "start" : 1627504534024,
-    "stop" : 1627504541102,
-    "duration" : 7078
+    "start" : 1627508392587,
+    "stop" : 1627508400216,
+    "duration" : 7629
   },
   "description" : "This test is make a success data listing with the category of cameras",
   "descriptionHtml" : "<p>This test is make a success data listing with the category of cameras</p>\n",
@@ -19,85 +19,85 @@
     "steps" : [ {
       "name" : "Your Store should open",
       "time" : {
-        "start" : 1627504537431,
-        "stop" : 1627504539207,
-        "duration" : 1776
+        "start" : 1627508396554,
+        "stop" : 1627508398422,
+        "duration" : 1868
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The home page should load successfully",
       "time" : {
-        "start" : 1627504539207,
-        "stop" : 1627504539239,
-        "duration" : 32
+        "start" : 1627508398422,
+        "stop" : 1627508398438,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The category of cameras page should open",
       "time" : {
-        "start" : 1627504539239,
-        "stop" : 1627504540361,
-        "duration" : 1122
+        "start" : 1627508398438,
+        "stop" : 1627508399656,
+        "duration" : 1218
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Category of cameras page should load successfully",
       "time" : {
-        "start" : 1627504540361,
-        "stop" : 1627504540385,
-        "duration" : 24
+        "start" : 1627508399656,
+        "stop" : 1627508399675,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "This step should check the first target on the loaded page",
       "time" : {
-        "start" : 1627504540385,
-        "stop" : 1627504540529,
-        "duration" : 144
+        "start" : 1627508399683,
+        "stop" : 1627508399867,
+        "duration" : 184
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -111,7 +111,7 @@
     "value" : "DESKTOP-UP60NKH"
   }, {
     "name" : "thread",
-    "value" : "5972@DESKTOP-UP60NKH.Test worker(11)"
+    "value" : "8128@DESKTOP-UP60NKH.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "TC_6_Listing_Data"
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a4adb5fa6182db39.json",
+  "source" : "fa84be4d103a2313.json",
   "parameterValues" : [ ]
 }

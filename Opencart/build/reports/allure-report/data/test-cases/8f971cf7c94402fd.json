@@ -1,12 +1,12 @@
 {
-  "uid" : "8e3621add531e3f7",
+  "uid" : "8f971cf7c94402fd",
   "name" : "This should paging",
   "fullName" : "TC_7_Pagination.listingCamerasData",
   "historyId" : "4e16c263beb94ed4bf310230e5d89de0",
   "time" : {
-    "start" : 1627504541119,
-    "stop" : 1627504549680,
-    "duration" : 8561
+    "start" : 1627508400247,
+    "stop" : 1627508410300,
+    "duration" : 10053
   },
   "description" : "This test is paging between the desktops targets",
   "descriptionHtml" : "<p>This test is paging between the desktops targets</p>\n",
@@ -19,100 +19,100 @@
     "steps" : [ {
       "name" : "Your Store should open",
       "time" : {
-        "start" : 1627504544457,
-        "stop" : 1627504546240,
-        "duration" : 1783
+        "start" : 1627508404107,
+        "stop" : 1627508406053,
+        "duration" : 1946
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The home page should load successfully",
       "time" : {
-        "start" : 1627504546240,
-        "stop" : 1627504546264,
+        "start" : 1627508406053,
+        "stop" : 1627508406077,
         "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Show all desktops page should open",
       "time" : {
-        "start" : 1627504546264,
-        "stop" : 1627504548004,
-        "duration" : 1740
+        "start" : 1627508406077,
+        "stop" : 1627508408147,
+        "duration" : 2070
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Show all desktops page 1 should load successfully",
       "time" : {
-        "start" : 1627504548004,
-        "stop" : 1627504548047,
-        "duration" : 43
+        "start" : 1627508408147,
+        "stop" : 1627508408156,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "This step is should to open the desktops page 2",
       "time" : {
-        "start" : 1627504548047,
-        "stop" : 1627504549141,
-        "duration" : 1094
+        "start" : 1627508408156,
+        "stop" : 1627508409376,
+        "duration" : 1220
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "The page 2 should open success",
       "time" : {
-        "start" : 1627504549141,
-        "stop" : 1627504549312,
-        "duration" : 171
+        "start" : 1627508409384,
+        "stop" : 1627508409541,
+        "duration" : 157
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
-    "hasContent" : true,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -126,7 +126,7 @@
     "value" : "DESKTOP-UP60NKH"
   }, {
     "name" : "thread",
-    "value" : "5972@DESKTOP-UP60NKH.Test worker(11)"
+    "value" : "8128@DESKTOP-UP60NKH.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "TC_7_Pagination"
@@ -153,6 +153,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8e3621add531e3f7.json",
+  "source" : "8f971cf7c94402fd.json",
   "parameterValues" : [ ]
 }

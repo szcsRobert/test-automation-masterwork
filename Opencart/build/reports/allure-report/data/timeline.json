@@ -4,117 +4,129 @@
   "children" : [ {
     "name" : "DESKTOP-UP60NKH",
     "children" : [ {
-      "name" : "5972@DESKTOP-UP60NKH.Test worker(11)",
+      "name" : "8128@DESKTOP-UP60NKH.Test worker(11)",
       "children" : [ {
-        "name" : "This should list cameras",
-        "uid" : "a4adb5fa6182db39",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627504534024,
-          "stop" : 1627504541102,
-          "duration" : 7078
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "This should sign up a new user on the page",
-        "uid" : "748a58a4f3ea9bcd",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627504494480,
-          "stop" : 1627504505381,
-          "duration" : 10901
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "This should logout the user",
-        "uid" : "cb2172e882c298ac",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627504451736,
-          "stop" : 1627504482921,
-          "duration" : 31185
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "This shouldn't login with a user",
-        "uid" : "a5276181714d64c5",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
+        "uid" : "cda486104f0d541c",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
         "status" : "passed",
         "time" : {
-          "start" : 1627504514159,
-          "stop" : 1627504522771,
-          "duration" : 8612
+          "start" : 1627508369872,
+          "stop" : 1627508378999,
+          "duration" : 9127
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "This should sign up with privacy policy",
-        "uid" : "42c00df734aa81f9",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
+        "uid" : "7b186b5af1db56de",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
         "status" : "passed",
         "time" : {
-          "start" : 1627504522787,
-          "stop" : 1627504534000,
-          "duration" : 11213
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "This should login with a user",
-        "uid" : "b09151bddc22857e",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627504505413,
-          "stop" : 1627504514151,
-          "duration" : 8738
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "This shouldn't sign up a new User on the page",
-        "uid" : "a71f36dea0a8f158",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1627504483578,
-          "stop" : 1627504494464,
-          "duration" : 10886
+          "start" : 1627508379030,
+          "stop" : 1627508392572,
+          "duration" : 13542
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "This should paging",
-        "uid" : "8e3621add531e3f7",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
+        "uid" : "8f971cf7c94402fd",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
         "status" : "passed",
         "time" : {
-          "start" : 1627504541119,
-          "stop" : 1627504549680,
-          "duration" : 8561
+          "start" : 1627508400247,
+          "stop" : 1627508410300,
+          "duration" : 10053
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "This should contact with support",
-        "uid" : "d8b770d9e695074",
-        "parentUid" : "d855ad47feb2eeb22d50ba69515c7f03",
+        "uid" : "ab518949446ca1f1",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
         "status" : "passed",
         "time" : {
-          "start" : 1627504549696,
-          "stop" : 1627504560748,
-          "duration" : 11052
+          "start" : 1627508410316,
+          "stop" : 1627508422368,
+          "duration" : 12052
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should login with a user",
+        "uid" : "6cebd8c301350b62",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508359187,
+          "stop" : 1627508369857,
+          "duration" : 10670
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should logout the user",
+        "uid" : "9077056d78ce9156",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508324094,
+          "stop" : 1627508336103,
+          "duration" : 12009
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This shouldn't sign up a new User on the page",
+        "uid" : "e1abd65fa1e7455b",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508336142,
+          "stop" : 1627508348267,
+          "duration" : 12125
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should sign up a new user on the page",
+        "uid" : "d5a4c8b39e574019",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508348317,
+          "stop" : 1627508359121,
+          "duration" : 10804
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should modified an existing data",
+        "uid" : "6193120a6f68b249",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508284499,
+          "stop" : 1627508323562,
+          "duration" : 39063
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should list cameras",
+        "uid" : "fa84be4d103a2313",
+        "parentUid" : "b296b8e3764893c1692b9067a08f6a1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627508392587,
+          "stop" : 1627508400216,
+          "duration" : 7629
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d855ad47feb2eeb22d50ba69515c7f03"
+      "uid" : "b296b8e3764893c1692b9067a08f6a1e"
     } ],
     "uid" : "aea555e4f573254cdcb420228374fcbd"
   } ]

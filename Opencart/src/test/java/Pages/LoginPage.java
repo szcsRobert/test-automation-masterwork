@@ -43,13 +43,6 @@ public class LoginPage extends HomePage {
         .equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/login");
   }
 
-  @Step("The login should success")
-  public void loginSuccessfully() {
-    LOG.info("Check login page is loaded success");
-    assertThat(loginSuccess.getText())
-        .isEqualTo("My Account");
-  }
-
   @Step("The login should unsuccess")
   public void loginFailed() {
     LOG.info("Check login page is loaded with warning");
