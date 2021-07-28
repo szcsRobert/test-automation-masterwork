@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC_13_Logout" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T21:38:44" hostname="DESKTOP-UP60NKH" time="12.029">
+<testsuite name="TC_13_Logout" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-28T22:12:41" hostname="DESKTOP-UP60NKH" time="11.387">
   <properties/>
-  <testcase name="logout()" classname="TC_13_Logout" time="12.029"/>
+  <testcase name="logout()" classname="TC_13_Logout" time="11.387"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 3673
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 14920
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 28, 2021 11:38:47 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 29, 2021 12:12:45 DE org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-júl. 28, 2021 11:38:48 DU org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+júl. 29, 2021 12:12:45 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 91
-júl. 28, 2021 11:38:48 DU org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+júl. 29, 2021 12:12:45 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 92 of 91
 ]]></system-err>
 </testsuite>

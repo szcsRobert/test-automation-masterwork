@@ -1,4 +1,5 @@
 import Pages.AddressPage;
+import Pages.EditAddressPage;
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.MyAccountPage;
@@ -16,11 +17,12 @@ public class TC_10_Existing_Data_Modification extends BaseTest {
   @Feature("Existing data modification")
   @DisplayName("This should modified an existing data")
   @Description("This test is modified an address in the of the user")
-  public void login() {
+  public void modifyExistingData() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
     MyAccountPage myAccountPage = new MyAccountPage(driver);
     AddressPage addressPage = new AddressPage(driver);
+    EditAddressPage editAddressPage = new EditAddressPage(driver);
 
     homePage.open();
     homePage.isLoaded();
@@ -35,7 +37,9 @@ public class TC_10_Existing_Data_Modification extends BaseTest {
 
     myAccountPage.openModifyYourAdress();
     addressPage.isLoaded();
-    addressPage.deleteAddress();
-    addressPage.deleteAddressSuccess();
+    addressPage.editExistingAddress();
+
+    editAddressPage.modifyFirstName("Patrik");
+    addressPage.editAddressSuccess();
   }
 }

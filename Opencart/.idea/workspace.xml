@@ -24,15 +24,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e1944db5-240c-4d20-9bb8-d1989a2bba63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/27075522-4a01-43fe-951e-d68961dc4347-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/40cca1f8-f1f6-44a5-99e8-657a13b08dec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/4de212c6-2e59-4bea-8dfc-e837bd1ed919-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/95151f97-1d89-4bbc-80de-86e902825589-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/b6e650cd-361b-4d2a-8a07-c75fd724f1b5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/d37916ca-ee09-4a4f-be44-6e8eb1e674eb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e8203609-fafe-47e0-836a-a2720b23455e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/eaedec39-9159-4909-9346-3b89728e9989-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/f3acd99c-0989-4c78-889d-cd9ba52622c7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/1aff9ebd-ffc5-464d-ad99-20a871be6b88-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/4b604d1e-26f9-43e5-8727-5e35f30a7ee0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/5df85ffc-951d-4a3b-953a-45230a087492-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/876f97c4-459a-46e3-a23c-d5ca9c24ddb3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8b906797-eb2e-4d1d-b282-5f465f05f679-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/9523b364-76b3-466e-8d54-b3b771d3c3e2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/9db8773a-e11b-44ee-9920-2b660ccfcbd4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a6689baf-94ef-43f8-a32a-44c77df96907-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ce1704e0-0757-416e-ada6-24c5a5f168c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ee70ffff-7fe7-4605-b9ac-94243cd590ed-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-results/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-results/history/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-results/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-results/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-results/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-results/history/history.json" afterDir="false" />
@@ -42,15 +43,16 @@
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/42c00df734aa81f9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/748a58a4f3ea9bcd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/8e3621add531e3f7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/a4adb5fa6182db39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/a5276181714d64c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/a71f36dea0a8f158.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/b09151bddc22857e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/cb2172e882c298ac.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/d8b770d9e695074.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/6193120a6f68b249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/6cebd8c301350b62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/7b186b5af1db56de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/8f971cf7c94402fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/9077056d78ce9156.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/ab518949446ca1f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/cda486104f0d541c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/d5a4c8b39e574019.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/e1abd65fa1e7455b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/fa84be4d103a2313.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/export/prometheusData.txt" afterDir="false" />
@@ -67,6 +69,7 @@
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" afterDir="false" />
@@ -76,11 +79,8 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_13_Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_13_Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_3_4_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_3_4_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_10_Existing_Data_Modification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_10_Existing_Data_Modification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testautomation.log" beforeDir="false" afterPath="$PROJECT_DIR$/testautomation.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -271,22 +271,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627477729341" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1627508251661">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1627510281971">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627508251661" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1627508251661">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627510281971" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1627510281970">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627508251661" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1627508251661">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627510281970" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1627510281968">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627508251661" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1627508251661">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627510281968" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1627510281971">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627508251661" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627510281971" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1627485631225">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

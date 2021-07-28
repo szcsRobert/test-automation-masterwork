@@ -13,17 +13,18 @@ import org.slf4j.LoggerFactory;
 public class AddressPage extends MyAccountPage {
   private static final Logger LOG = LoggerFactory.getLogger(AddressPage.class);
 
+  @FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr[2]/td[2]/a[1]")
+  WebElement editAddressButton;
+
   @FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr[3]/td[2]/a[2]")
   WebElement deleteAddressButton;
 
   @FindBy(css = "#account-address > div.alert.alert-success.alert-dismissible")
   WebElement deleteAddressSuccess;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[2]/a")
-  WebElement newAddressButton;
-
   @FindBy(css = "#account-address > div.alert.alert-success.alert-dismissible")
-  WebElement newAddressSuccess;
+  WebElement editAddressSuccess;
+
 
   public AddressPage() {
   }
@@ -39,10 +40,10 @@ public class AddressPage extends MyAccountPage {
         .equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/address");
   }
 
-  @Step("Add new address page should open")
-  public void openNewAddress() {
-    LOG.info("Add new address page is opened");
-    newAddressButton.click();
+  @Step("Edit address page should open")
+  public void editExistingAddress() {
+    LOG.info("Edit address page is opened");
+    editAddressButton.click();
   }
 
   @Step("This step should delete an exist address")
@@ -51,11 +52,11 @@ public class AddressPage extends MyAccountPage {
     deleteAddressButton.click();
   }
 
-  @Step("This step should add new address")
-  public void newAddressSuccess() {
-    LOG.info("The address is added");
-    assertThat(newAddressSuccess.getText())
-        .isEqualTo("Your address has been successfully added");
+  @Step("This step should edit an existing address")
+  public void editAddressSuccess() {
+    LOG.info("The address is edited");
+    assertThat(editAddressSuccess.getText())
+        .isEqualTo("Your address has been successfully updated");
   }
 
   @Step("This step should delete exist address")
