@@ -31,6 +31,9 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[1]/div/a")
   WebElement categoryDesktopsShowAll;
 
+  @FindBy(xpath = "/html/body/footer/div/div/div[2]/ul/li[1]/a")
+  WebElement contactUsPage;
+
   public HomePage() {
   }
 
@@ -82,5 +85,11 @@ public class HomePage extends BasePage {
     LOG.info("Show all desktops page loaded success");
     categoryDesktops.click();
     categoryDesktopsShowAll.click();
+  }
+
+  @Step("Contact us page should open")
+  public void openContactUsPage() {
+    LOG.info("Contact us page load is success");
+    contactUsPage.click();
   }
 }
