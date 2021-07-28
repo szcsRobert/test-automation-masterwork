@@ -15,7 +15,7 @@ public class TC_13_Logout extends BaseTest {
   @Feature("Logout")
   @DisplayName("This should logout the user")
   @Description("This test is logout the user after login")
-  public void signUp() {
+  public void logout() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
     LogoutPage logoutPage = new LogoutPage(driver);

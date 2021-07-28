@@ -15,7 +15,7 @@ public class TC_3_4_Login extends BaseTest {
   @Feature("Login")
   @DisplayName("This should login with a user")
   @Description("This test is make a success login with a valid user")
-  public void signUp() {
+  public void login() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
 
@@ -35,7 +35,7 @@ public class TC_3_4_Login extends BaseTest {
   @Feature("Login")
   @DisplayName("This shouldn't login with a user")
   @Description("This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message")
-  public void signUpFailed() {
+  public void loginFailed() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
 
