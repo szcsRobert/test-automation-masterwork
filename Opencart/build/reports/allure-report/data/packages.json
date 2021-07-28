@@ -5,13 +5,13 @@
     "name" : "TC_13_Logout",
     "children" : [ {
       "name" : "logout",
-      "uid" : "22d31a65b3ff2bef",
+      "uid" : "cb2172e882c298ac",
       "parentUid" : "29a53375f2abcc2dcfe70414e6ed297c",
       "status" : "passed",
       "time" : {
-        "start" : 1627491885775,
-        "stop" : 1627491916467,
-        "duration" : 30692
+        "start" : 1627504451736,
+        "stop" : 1627504482921,
+        "duration" : 31185
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -21,25 +21,25 @@
     "name" : "TC_1_2_Register",
     "children" : [ {
       "name" : "signUpFailed",
-      "uid" : "d4acea3c9bcfca44",
+      "uid" : "a71f36dea0a8f158",
       "parentUid" : "01a78f76ab7e5cb173502c21f9cc2d43",
       "status" : "passed",
       "time" : {
-        "start" : 1627491917163,
-        "stop" : 1627491928531,
-        "duration" : 11368
+        "start" : 1627504483578,
+        "stop" : 1627504494464,
+        "duration" : 10886
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "signUp",
-      "uid" : "f8ba314875cabca6",
+      "uid" : "748a58a4f3ea9bcd",
       "parentUid" : "01a78f76ab7e5cb173502c21f9cc2d43",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1627491928547,
-        "stop" : 1627491940365,
-        "duration" : 11818
+        "start" : 1627504494480,
+        "stop" : 1627504505381,
+        "duration" : 10901
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -49,25 +49,25 @@
     "name" : "TC_3_4_Login",
     "children" : [ {
       "name" : "login",
-      "uid" : "a2d2718db6574983",
+      "uid" : "b09151bddc22857e",
       "parentUid" : "940ce24b87f6062001162a3258f34851",
       "status" : "passed",
       "time" : {
-        "start" : 1627491940459,
-        "stop" : 1627491950581,
-        "duration" : 10122
+        "start" : 1627504505413,
+        "stop" : 1627504514151,
+        "duration" : 8738
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginFailed",
-      "uid" : "cd86804bf906882f",
+      "uid" : "a5276181714d64c5",
       "parentUid" : "940ce24b87f6062001162a3258f34851",
       "status" : "passed",
       "time" : {
-        "start" : 1627491950597,
-        "stop" : 1627491960081,
-        "duration" : 9484
+        "start" : 1627504514159,
+        "stop" : 1627504522771,
+        "duration" : 8612
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -77,13 +77,13 @@
     "name" : "TC_5_Privacy_Policy",
     "children" : [ {
       "name" : "signUpWithPpCheck",
-      "uid" : "90027e679ce2a74f",
+      "uid" : "42c00df734aa81f9",
       "parentUid" : "399fe2bbbb8de7adc62b5a365b93d02b",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1627491960097,
-        "stop" : 1627491971394,
-        "duration" : 11297
+        "start" : 1627504522787,
+        "stop" : 1627504534000,
+        "duration" : 11213
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -93,13 +93,13 @@
     "name" : "TC_6_Listing_Data",
     "children" : [ {
       "name" : "listingCamerasData",
-      "uid" : "acdf4957b62d4d89",
+      "uid" : "a4adb5fa6182db39",
       "parentUid" : "d8e36bf8397f4bb8a339ca17b61b2da2",
       "status" : "passed",
       "time" : {
-        "start" : 1627491971457,
-        "stop" : 1627491979043,
-        "duration" : 7586
+        "start" : 1627504534024,
+        "stop" : 1627504541102,
+        "duration" : 7078
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -109,13 +109,13 @@
     "name" : "TC_7_Pagination",
     "children" : [ {
       "name" : "listingCamerasData",
-      "uid" : "65bc3cd58cc4ad6a",
+      "uid" : "8e3621add531e3f7",
       "parentUid" : "b2afa601d87567c53212af476824746b",
       "status" : "passed",
       "time" : {
-        "start" : 1627491979089,
-        "stop" : 1627491988184,
-        "duration" : 9095
+        "start" : 1627504541119,
+        "stop" : 1627504549680,
+        "duration" : 8561
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -125,13 +125,13 @@
     "name" : "TC_8_Input_Of_New_Data",
     "children" : [ {
       "name" : "listingCamerasData",
-      "uid" : "8284ab07ef570251",
+      "uid" : "d8b770d9e695074",
       "parentUid" : "7f2cac38b13366badc8dc7ff3371f070",
       "status" : "passed",
       "time" : {
-        "start" : 1627491988216,
-        "stop" : 1627492000396,
-        "duration" : 12180
+        "start" : 1627504549696,
+        "stop" : 1627504560748,
+        "duration" : 11052
       },
       "flaky" : false,
       "parameters" : [ ]

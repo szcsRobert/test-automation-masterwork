@@ -1,27 +1,27 @@
 {
-  "uid" : "cd86804bf906882f",
-  "name" : "This shouldn't login with a user",
-  "fullName" : "TC_3_4_Login.loginFailed",
-  "historyId" : "1ed157a8733d3a52ad41f6517be421b5",
+  "uid" : "b09151bddc22857e",
+  "name" : "This should login with a user",
+  "fullName" : "TC_3_4_Login.login",
+  "historyId" : "d242dfc514a82a28685312ff54415879",
   "time" : {
-    "start" : 1627491950597,
-    "stop" : 1627491960081,
-    "duration" : 9484
+    "start" : 1627504505413,
+    "stop" : 1627504514151,
+    "duration" : 8738
   },
-  "description" : "This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message",
-  "descriptionHtml" : "<p>This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message</p>\n",
+  "description" : "This test is make a success login with a valid user",
+  "descriptionHtml" : "<p>This test is make a success login with a valid user</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message",
+    "description" : "This test is make a success login with a valid user",
     "status" : "passed",
     "steps" : [ {
       "name" : "Your Store should open",
       "time" : {
-        "start" : 1627491954906,
-        "stop" : 1627491956734,
-        "duration" : 1828
+        "start" : 1627504508880,
+        "stop" : 1627504510626,
+        "duration" : 1746
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,14 +29,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "The home page should load successfully",
       "time" : {
-        "start" : 1627491956735,
-        "stop" : 1627491956757,
-        "duration" : 22
+        "start" : 1627504510626,
+        "stop" : 1627504510650,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,14 +44,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "The login page should open",
       "time" : {
-        "start" : 1627491956757,
-        "stop" : 1627491957984,
-        "duration" : 1227
+        "start" : 1627504510650,
+        "stop" : 1627504511813,
+        "duration" : 1163
       },
       "status" : "passed",
       "steps" : [ ],
@@ -59,14 +59,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "The login page should load successfully",
       "time" : {
-        "start" : 1627491957984,
-        "stop" : 1627491958000,
-        "duration" : 16
+        "start" : 1627504511813,
+        "stop" : 1627504511845,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,14 +74,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "The login should unsuccess",
+      "name" : "The login should success",
       "time" : {
-        "start" : 1627491959694,
-        "stop" : 1627491959838,
-        "duration" : 144
+        "start" : 1627504513683,
+        "stop" : 1627504513811,
+        "duration" : 128
       },
       "status" : "passed",
       "steps" : [ ],
@@ -89,15 +89,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 5,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -111,7 +111,7 @@
     "value" : "DESKTOP-UP60NKH"
   }, {
     "name" : "thread",
-    "value" : "13620@DESKTOP-UP60NKH.Test worker(11)"
+    "value" : "5972@DESKTOP-UP60NKH.Test worker(11)"
   }, {
     "name" : "package",
     "value" : "TC_3_4_Login"
@@ -120,7 +120,7 @@
     "value" : "TC_3_4_Login"
   }, {
     "name" : "testMethod",
-    "value" : "loginFailed"
+    "value" : "login"
   }, {
     "name" : "suite",
     "value" : "TC_3_4_Login"
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cd86804bf906882f.json",
+  "source" : "b09151bddc22857e.json",
   "parameterValues" : [ ]
 }

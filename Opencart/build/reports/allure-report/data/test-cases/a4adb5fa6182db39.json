@@ -1,27 +1,27 @@
 {
-  "uid" : "8284ab07ef570251",
-  "name" : "This should contact with support",
-  "fullName" : "TC_8_Input_Of_New_Data.listingCamerasData",
-  "historyId" : "74cc4d2c92e9d3a22e762d0e7b671d50",
+  "uid" : "a4adb5fa6182db39",
+  "name" : "This should list cameras",
+  "fullName" : "TC_6_Listing_Data.listingCamerasData",
+  "historyId" : "91fdda1b7681601cb8077ea383364e61",
   "time" : {
-    "start" : 1627491988216,
-    "stop" : 1627492000396,
-    "duration" : 12180
+    "start" : 1627504534024,
+    "stop" : 1627504541102,
+    "duration" : 7078
   },
-  "description" : "This test is sending a complaint to the support",
-  "descriptionHtml" : "<p>This test is sending a complaint to the support</p>\n",
+  "description" : "This test is make a success data listing with the category of cameras",
+  "descriptionHtml" : "<p>This test is make a success data listing with the category of cameras</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "This test is sending a complaint to the support",
+    "description" : "This test is make a success data listing with the category of cameras",
     "status" : "passed",
     "steps" : [ {
       "name" : "Your Store should open",
       "time" : {
-        "start" : 1627491992677,
-        "stop" : 1627491994456,
-        "duration" : 1779
+        "start" : 1627504537431,
+        "stop" : 1627504539207,
+        "duration" : 1776
       },
       "status" : "passed",
       "steps" : [ ],
@@ -29,14 +29,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "The home page should load successfully",
       "time" : {
-        "start" : 1627491994456,
-        "stop" : 1627491994487,
-        "duration" : 31
+        "start" : 1627504539207,
+        "stop" : 1627504539239,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,14 +44,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Contact us page should open",
+      "name" : "The category of cameras page should open",
       "time" : {
-        "start" : 1627491994487,
-        "stop" : 1627491995401,
-        "duration" : 914
+        "start" : 1627504539239,
+        "stop" : 1627504540361,
+        "duration" : 1122
       },
       "status" : "passed",
       "steps" : [ ],
@@ -59,14 +59,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "The contact us page should open",
+      "name" : "Category of cameras page should load successfully",
       "time" : {
-        "start" : 1627491995401,
-        "stop" : 1627491995417,
-        "duration" : 16
+        "start" : 1627504540361,
+        "stop" : 1627504540385,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,14 +74,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "This step should do a contact with support",
+      "name" : "This step should check the first target on the loaded page",
       "time" : {
-        "start" : 1627492000124,
-        "stop" : 1627492000147,
-        "duration" : 23
+        "start" : 1627504540385,
+        "stop" : 1627504540529,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
@@ -89,15 +89,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 5,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -105,25 +105,25 @@
     "value" : "Your Store"
   }, {
     "name" : "feature",
-    "value" : "Input new data"
+    "value" : "Listing Data"
   }, {
     "name" : "host",
     "value" : "DESKTOP-UP60NKH"
   }, {
     "name" : "thread",
-    "value" : "13620@DESKTOP-UP60NKH.Test worker(11)"
+    "value" : "5972@DESKTOP-UP60NKH.Test worker(11)"
   }, {
     "name" : "package",
-    "value" : "TC_8_Input_Of_New_Data"
+    "value" : "TC_6_Listing_Data"
   }, {
     "name" : "testClass",
-    "value" : "TC_8_Input_Of_New_Data"
+    "value" : "TC_6_Listing_Data"
   }, {
     "name" : "testMethod",
     "value" : "listingCamerasData"
   }, {
     "name" : "suite",
-    "value" : "TC_8_Input_Of_New_Data"
+    "value" : "TC_6_Listing_Data"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8284ab07ef570251.json",
+  "source" : "a4adb5fa6182db39.json",
   "parameterValues" : [ ]
 }

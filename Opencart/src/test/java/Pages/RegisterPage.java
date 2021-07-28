@@ -5,6 +5,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import io.qameta.allure.Step;
 import java.time.Duration;
+import java.util.Random;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,7 +48,7 @@ public class RegisterPage extends BasePage {
   @FindBy(css = "#content > p:nth-child(2)")
   WebElement signUpSuccess;
 
-  @FindBy(css = "#account-register > div.alert.alert-danger.alert-dismissible")
+  @FindBy(css = "#content > form > fieldset:nth-child(2) > div.form-group.required.has-error > div > div")
   WebElement signUpFailed;
 
 
@@ -78,38 +79,42 @@ public class RegisterPage extends BasePage {
     assertThat(signUpFailed.isDisplayed());
   }
 
-  public void signUp(String fName, String lName, String email, String telephone, String pswd) {
+  public void signUp(String fName, String lName, String telephone, String pswd, String pswdConfirm) {
     LOG.info("signUp() called");
     LOG.trace("firstname=" + fName + "lastname=" + lName);
     firstNameField.sendKeys(fName);
     lastNameField.sendKeys(lName);
-    LOG.trace("email=" + email);
-    emailField.sendKeys(email);
+    Random randomGenerator = new Random();
+    int randomInt = randomGenerator.nextInt(1000);
+    LOG.trace("email=" + fName + randomInt + "@gmail.com");
+    emailField.sendKeys(fName+ randomInt +"@gmail.com");
     LOG.trace("phonenumber=" + telephone);
     telephoneField.sendKeys(telephone);
     LOG.trace("password=" + pswd);
     passwordField.sendKeys(pswd);
-    passwordConfirmField.sendKeys(pswd);
+    passwordConfirmField.sendKeys(pswdConfirm);
     LOG.debug("Check the box");
     privacyPolicyCheck.click();
     LOG.debug("Click on submit");
     buttonContinue.click();
   }
 
-  public void signUpWithPpCheck(String fName, String lName, String email, String telephone,
-                                String pswd) {
+  public void signUpWithPpCheck(String fName, String lName, String telephone,
+                                String pswd, String pswdConfirm) {
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     LOG.info("signUp() called");
     LOG.trace("firstname=" + fName + "lastname=" + lName);
     firstNameField.sendKeys(fName);
     lastNameField.sendKeys(lName);
-    LOG.trace("email=" + email);
-    emailField.sendKeys(email);
+    Random randomGenerator = new Random();
+    int randomInt = randomGenerator.nextInt(1000);
+    LOG.trace("email=" + fName + randomInt + "@gmail.com");
+    emailField.sendKeys(fName+ randomInt +"@gmail.com");
     LOG.trace("phonenumber=" + telephone);
     telephoneField.sendKeys(telephone);
     LOG.trace("password=" + pswd);
     passwordField.sendKeys(pswd);
-    passwordConfirmField.sendKeys(pswd);
+    passwordConfirmField.sendKeys(pswdConfirm);
     LOG.debug("Open the policy");
     privacyPolicy.click();
     LOG.debug("Close the policy");
