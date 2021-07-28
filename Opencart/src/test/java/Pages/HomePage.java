@@ -19,6 +19,9 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a")
   WebElement myAccountLogin;
 
+  @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")
+  WebElement myAccountLogout;
+
   public HomePage() {
   }
 
@@ -50,6 +53,13 @@ public class HomePage extends BasePage {
     LOG.info("The login page loaded success");
     myAccount.click();
     myAccountLogin.click();
+  }
+
+  @Step("The logout should logout the user")
+  public void myAccountLogout() {
+    LOG.info("The logout is success");
+    myAccount.click();
+    myAccountLogout.click();
   }
 
 }
