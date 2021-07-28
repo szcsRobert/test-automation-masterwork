@@ -22,6 +22,9 @@ public class HomePage extends BasePage {
   @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")
   WebElement myAccountLogout;
 
+  @FindBy(xpath = "//*[@id=\"menu\"]/div[2]/ul/li[7]/a")
+  WebElement categoryCameras;
+
   public HomePage() {
   }
 
@@ -62,4 +65,9 @@ public class HomePage extends BasePage {
     myAccountLogout.click();
   }
 
+  @Step("The category of cameras page should open")
+  public void openCamerasPage() {
+    LOG.info("The category of cameras page loaded success");
+    categoryCameras.click();
+  }
 }
