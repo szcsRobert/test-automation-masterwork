@@ -1,0 +1,175 @@
+{
+  "91fdda1b7681601cb8077ea383364e61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acdf4957b62d4d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491971457,
+        "stop" : 1627491979043,
+        "duration" : 7586
+      }
+    } ]
+  },
+  "4e16c263beb94ed4bf310230e5d89de0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65bc3cd58cc4ad6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491979089,
+        "stop" : 1627491988184,
+        "duration" : 9095
+      }
+    } ]
+  },
+  "d242dfc514a82a28685312ff54415879" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d2718db6574983",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491940459,
+        "stop" : 1627491950581,
+        "duration" : 10122
+      }
+    } ]
+  },
+  "d4036f705b760d18d549c88aa277a545" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8ba314875cabca6",
+      "status" : "failed",
+      "statusDetails" : "\r\nexpected: \"Congratulations! Your new account has been successfully created!\"\r\n but was: \"If you already have an account with us, please login at the login page.\"",
+      "time" : {
+        "start" : 1627491928547,
+        "stop" : 1627491940365,
+        "duration" : 11818
+      }
+    } ]
+  },
+  "74cc4d2c92e9d3a22e762d0e7b671d50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8284ab07ef570251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491988216,
+        "stop" : 1627492000396,
+        "duration" : 12180
+      }
+    } ]
+  },
+  "f8966b582e9875249b305f8d9ef78f37" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90027e679ce2a74f",
+      "status" : "failed",
+      "statusDetails" : "\r\nexpected: \"Congratulations! Your new account has been successfully created!\"\r\n but was: \"If you already have an account with us, please login at the login page.\"",
+      "time" : {
+        "start" : 1627491960097,
+        "stop" : 1627491971394,
+        "duration" : 11297
+      }
+    } ]
+  },
+  "e32aaada0b98802ae6c45139b40987ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22d31a65b3ff2bef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491885775,
+        "stop" : 1627491916467,
+        "duration" : 30692
+      }
+    } ]
+  },
+  "b225ed69818f63a6c28eab6708c77ee8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4acea3c9bcfca44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491917163,
+        "stop" : 1627491928531,
+        "duration" : 11368
+      }
+    } ]
+  },
+  "1ed157a8733d3a52ad41f6517be421b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd86804bf906882f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627491950597,
+        "stop" : 1627491960081,
+        "duration" : 9484
+      }
+    } ]
+  }
+}

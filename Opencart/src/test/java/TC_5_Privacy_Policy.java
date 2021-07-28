@@ -26,7 +26,7 @@ public class TC_5_Privacy_Policy extends BaseTest {
 
     registerPage.signUpWithPpCheck("Trefa",
         "Bela",
-        "asdg52+2@gmail.com",
+        "asdg526@gmail.com",
         "2132131",
         "asddsa");
     registerPage.signUpSuccessfully();

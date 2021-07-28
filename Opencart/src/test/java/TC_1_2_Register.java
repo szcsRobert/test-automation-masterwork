@@ -26,7 +26,7 @@ public class TC_1_2_Register extends BaseTest {
 
     registerPage.signUp("Trefa",
         "Bela",
-        "asdg3@gmail.com",
+        "asdg767@gmail.com",
         "2132131",
         "asddsa");
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
