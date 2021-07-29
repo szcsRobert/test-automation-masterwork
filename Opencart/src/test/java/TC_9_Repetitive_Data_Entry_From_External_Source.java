@@ -1,6 +1,5 @@
 import Pages.AddNewAddressPage;
 import Pages.AddressPage;
-import Pages.EditAddressPage;
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.MyAccountPage;
@@ -9,16 +8,20 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import java.time.Duration;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 @Epic("Your Store")
 public class TC_9_Repetitive_Data_Entry_From_External_Source extends BaseTest {
 
-  @Test
+  @ParameterizedTest
+  @CsvFileSource(resources = "/newAddresses.csv", numLinesToSkip = 1, encoding = "utf-8")
   @Feature("Add new addresses")
   @DisplayName("This should add some new address")
   @Description("This test is add some new address")
-  public void addNewAddresses() {
+  public void addNewAddresses(String fName, String lName, String address, String city,
+                              String postCode, String country) {
+
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
     MyAccountPage myAccountPage = new MyAccountPage(driver);
@@ -40,12 +43,8 @@ public class TC_9_Repetitive_Data_Entry_From_External_Source extends BaseTest {
     addressPage.isLoaded();
     addressPage.addNewAddress();
 
-    addNewAddressPage.newAddress("Peter",
-        "Proba",
-        "Kiss Sandor utca 4.",
-        "Budapest",
-        "1138",
-        "Hungary");
+    addNewAddressPage.newAddress(fName, lName, address, city, postCode, country);
     addressPage.newAddressSuccess();
+    myAccountPage.shouldLogout();
   }
 }
