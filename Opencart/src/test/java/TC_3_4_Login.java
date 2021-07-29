@@ -1,7 +1,6 @@
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.MyAccountPage;
-import Pages.RegisterPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -40,9 +39,12 @@ public class TC_3_4_Login extends BaseTest {
   public void loginFailed() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
+    MyAccountPage myAccountPage = new MyAccountPage(driver);
 
     homePage.open();
     homePage.isLoaded();
+
+    myAccountPage.shouldLogout();
 
     homePage.openLoginPage();
     loginPage.isLoaded();

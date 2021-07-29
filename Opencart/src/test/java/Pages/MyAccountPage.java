@@ -1,7 +1,5 @@
 package Pages;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
@@ -13,8 +11,11 @@ import org.slf4j.LoggerFactory;
 public class MyAccountPage extends BasePage {
   private static final Logger LOG = LoggerFactory.getLogger(MyAccountPage.class);
 
-  @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[1]/a")
-  WebElement editYourAccount;
+  @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")
+  WebElement myAccount;
+
+  @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")
+  WebElement myAccountLogout;
 
   @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[3]/a")
   WebElement modifyYourAdress;
@@ -37,5 +38,12 @@ public class MyAccountPage extends BasePage {
   public void openModifyYourAdress() {
     LOG.info("Modify your address book entries page is loaded");
     modifyYourAdress.click();
+  }
+
+  @Step("This step is logout the user after a success login")
+  public void shouldLogout() {
+    LOG.info("Logout the user after a success login");
+    myAccount.click();
+    myAccountLogout.click();
   }
 }

@@ -25,6 +25,11 @@ public class AddressPage extends MyAccountPage {
   @FindBy(css = "#account-address > div.alert.alert-success.alert-dismissible")
   WebElement editAddressSuccess;
 
+  @FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[2]/a")
+  WebElement newAddressButton;
+
+  @FindBy(css = "#account-address > div.alert.alert-success.alert-dismissible")
+  WebElement newAddressSuccess;
 
   public AddressPage() {
   }
@@ -52,6 +57,12 @@ public class AddressPage extends MyAccountPage {
     deleteAddressButton.click();
   }
 
+  @Step("This step should add a new address")
+  public void addNewAddress() {
+    LOG.info("This step added a new address");
+    newAddressButton.click();
+  }
+
   @Step("This step should edit an existing address")
   public void editAddressSuccess() {
     LOG.info("The address is edited");
@@ -64,5 +75,12 @@ public class AddressPage extends MyAccountPage {
     LOG.info("The address is deleted");
     assertThat(deleteAddressSuccess.getText())
         .isEqualTo("Your address has been successfully deleted");
+  }
+
+  @Step("This step should add a new address")
+  public void newAddressSuccess() {
+    LOG.info("New address is added");
+    assertThat(newAddressSuccess.getText())
+        .isEqualTo("Your address has been successfully added");
   }
 }

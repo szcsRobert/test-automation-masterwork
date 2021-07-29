@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
 import java.util.Properties;
-import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.WebDriver;
@@ -16,38 +17,44 @@ import org.slf4j.LoggerFactory;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTest {
-  protected WebDriver driver;
-  protected WebDriverWait wait;
-  protected Properties properties;
-  protected static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
+
+  WebDriver driver;
+  WebDriverWait wait;
+  Properties properties;
+  static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
 
 
-  @BeforeEach
+  @BeforeAll
   public void setup() throws IOException {
+
     String browser;
+
     LOG.info("Set browser");
-    Properties properties = new Properties();
+
+    properties = new Properties();
     InputStream propertiesStream = this.getClass().getResourceAsStream("/test.properties");
     properties.load(propertiesStream);
     browser = properties.getProperty("browser");
 
     if (browser.equals("chrome")) {
-      //load chromedriver
       WebDriverManager.chromedriver().setup();
-      this.driver = new ChromeDriver();
+      driver = new ChromeDriver();
     } else if (browser.equals("firefox")) {
       WebDriverManager.firefoxdriver().setup();
-      this.driver = new FirefoxDriver();
+      driver = new FirefoxDriver();
     } else {
       WebDriverManager.edgedriver().setup();
-      this.driver = new EdgeDriver();
+      driver = new EdgeDriver();
     }
     wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+    LOG.info("Maximize window");
     driver.manage().window().maximize();
   }
 
-  @AfterEach
+  @AfterAll
   public void tearDown() {
-    driver.close();
+    LOG.info("Close window");
+    driver.quit();
   }
 }

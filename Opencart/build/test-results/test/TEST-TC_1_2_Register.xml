@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TC_1_2_Register" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-28T22:12:53" hostname="DESKTOP-UP60NKH" time="23.715">
+<testsuite name="TC_1_2_Register" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-29T21:03:45" hostname="DESKTOP-UP60NKH" time="11.284">
   <properties/>
-  <testcase name="signUpFailed()" classname="TC_1_2_Register" time="12.115"/>
-  <testcase name="signUp()" classname="TC_1_2_Register" time="11.593"/>
+  <testcase name="signUpFailed()" classname="TC_1_2_Register" time="6.612"/>
+  <testcase name="signUp()" classname="TC_1_2_Register" time="4.665"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 27862
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 10762
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 29, 2021 12:12:56 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 29, 2021 11:03:44 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-júl. 29, 2021 12:12:56 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+júl. 29, 2021 11:03:44 DU org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 91
-júl. 29, 2021 12:12:56 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 92 of 91
-Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 24075
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-júl. 29, 2021 12:13:08 DE org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-júl. 29, 2021 12:13:09 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 91
-júl. 29, 2021 12:13:09 DE org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+júl. 29, 2021 11:03:44 DU org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 92 of 91
 ]]></system-err>
 </testsuite>
