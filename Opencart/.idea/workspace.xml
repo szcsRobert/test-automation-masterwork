@@ -27,47 +27,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/2b3600ce-a82f-4df2-9bb0-9fa0ddeb9200-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/4a2d4be7-6039-4d60-91eb-5ba94e7799ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/572c5db5-23eb-42a2-9ea5-7253be3a1dcf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/59174ed9-d38c-44cb-9c92-78eb4a134024-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/61cd9ea8-f819-4047-b71e-e70eb6454cd0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/65acc480-62d2-4249-b5cb-294894efe9e0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/91802f5d-4785-4b91-ae33-0f4be51d989f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/a8941c1a-5ca9-408e-8a0d-8dead41f7755-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/cb4d3d81-9341-4121-8c6f-e573031e561c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/cd4954b9-05fa-4625-ad41-db4608d90f20-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e3fdccae-9a13-4e32-a623-f2dd4b2905e8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/fd4724be-0a5d-4efb-8f91-ee9c5f9fe0a6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_11_Deleting_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_11_Deleting_Data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_5_Privacy_Policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_5_Privacy_Policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_6_Listing_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_6_Listing_Data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_7_Pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_7_Pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_9_Repetitive_Data_Entry_From_External_Source.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_9_Repetitive_Data_Entry_From_External_Source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_10_Existing_Data_Modification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_10_Existing_Data_Modification.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_11_Deleting_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_11_Deleting_Data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_13_Logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_13_Logout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_1_2_Register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_1_2_Register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_3_4_Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_3_4_Login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_5_Privacy_Policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_5_Privacy_Policy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_6_Listing_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_6_Listing_Data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_7_Pagination.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_7_Pagination.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_8_Input_Of_New_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_8_Input_Of_New_Data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_9_Repetitive_Data_Entry_From_External_Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_9_Repetitive_Data_Entry_From_External_Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testautomation.log" beforeDir="false" afterPath="$PROJECT_DIR$/testautomation.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/allure-results" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../hsg-access-final-trial-exam/hsg-access-final-trial-exam/gradle-starter" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -257,22 +218,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627477729341" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1627596439447">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1627889317206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627596439447" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1627596439447">
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627889317206" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1627597452371">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627596439447" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1627596439447">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627597452371" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1627597452355">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627596439447" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1627596439447">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627597452355" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1627597452355">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627596439447" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627597452355" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1627597452371">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1627597452371" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1627485631225">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
