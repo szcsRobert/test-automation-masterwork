@@ -10,7 +10,7 @@
 ### Az Allure reportok lekérésének módja:
 - `allure serve build/allure-results` futtatása terminálban, teszt reportokhoz.
 
-A teszt report elérhetősége a [repositoryn](https://github.com/szcsRobert/test-automation-masterwork/tree/main/Opencart/build) belül.
+A teszt report elérhetősége a [repositoryn](https://github.com/szcsRobert/test-automation-masterwork/tree/main/Opencart/build/reports/allure-report) belül.
 
 
 
