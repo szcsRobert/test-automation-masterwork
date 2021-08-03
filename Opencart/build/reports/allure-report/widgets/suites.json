@@ -1,0 +1,114 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "04394999bcb892d93c8a89823036fb0b",
+    "name" : "TC_9_Repetitive_Data_Entry_From_External_Source",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bed22fb669874e47ec4ddc15dee3ed6a",
+    "name" : "TC_1_2_Register",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7003749ae9e20c56ac57249ccfac89b4",
+    "name" : "TC_3_4_Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4ab87e4a2dcffbbfb5de52444a63afe5",
+    "name" : "TC_10_Existing_Data_Modification",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "dfc5870a73a16607f62445fa8da6f728",
+    "name" : "TC_11_Deleting_Data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "90e2366c525b5bce135c035f057a95d0",
+    "name" : "TC_12_Saving_Data_From_The_Web_Application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56d2047cb21ba192e950bfb45e9c950d",
+    "name" : "TC_13_Logout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7c83f13e5786693807b86922bd089067",
+    "name" : "TC_5_Privacy_Policy",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "080296ee107115c142cdeb4409dce72b",
+    "name" : "TC_6_Listing_Data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "19775e54ef9c735d5b1b41f27bb72203",
+    "name" : "TC_7_Pagination",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

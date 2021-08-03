@@ -1,0 +1,229 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TC_10_Existing_Data_Modification",
+    "children" : [ {
+      "name" : "This should modified an existing data",
+      "uid" : "c7c672eff7be46aa",
+      "parentUid" : "4ab87e4a2dcffbbfb5de52444a63afe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988708601,
+        "stop" : 1627988725980,
+        "duration" : 17379
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4ab87e4a2dcffbbfb5de52444a63afe5"
+  }, {
+    "name" : "TC_11_Deleting_Data",
+    "children" : [ {
+      "name" : "This should delete an existing data",
+      "uid" : "87f6c6b8b09dd090",
+      "parentUid" : "dfc5870a73a16607f62445fa8da6f728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988735132,
+        "stop" : 1627988751718,
+        "duration" : 16586
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dfc5870a73a16607f62445fa8da6f728"
+  }, {
+    "name" : "TC_12_Saving_Data_From_The_Web_Application",
+    "children" : [ {
+      "name" : "Saving data from the web application",
+      "uid" : "befb219c32b0951",
+      "parentUid" : "90e2366c525b5bce135c035f057a95d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988757256,
+        "stop" : 1627988764651,
+        "duration" : 7395
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "90e2366c525b5bce135c035f057a95d0"
+  }, {
+    "name" : "TC_13_Logout",
+    "children" : [ {
+      "name" : "This should logout the user",
+      "uid" : "2f4bef304d827a15",
+      "parentUid" : "56d2047cb21ba192e950bfb45e9c950d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988772341,
+        "stop" : 1627988787206,
+        "duration" : 14865
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "56d2047cb21ba192e950bfb45e9c950d"
+  }, {
+    "name" : "TC_1_2_Register",
+    "children" : [ {
+      "name" : "This shouldn't sign up a new User on the page",
+      "uid" : "591a61c8d5d5342",
+      "parentUid" : "bed22fb669874e47ec4ddc15dee3ed6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988794644,
+        "stop" : 1627988809537,
+        "duration" : 14893
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "This should sign up a new user on the page",
+      "uid" : "f2144d64aef9a832",
+      "parentUid" : "bed22fb669874e47ec4ddc15dee3ed6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988809560,
+        "stop" : 1627988818704,
+        "duration" : 9144
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bed22fb669874e47ec4ddc15dee3ed6a"
+  }, {
+    "name" : "TC_3_4_Login",
+    "children" : [ {
+      "name" : "This should login with a user",
+      "uid" : "c07196f8bb524911",
+      "parentUid" : "7003749ae9e20c56ac57249ccfac89b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988826306,
+        "stop" : 1627988840059,
+        "duration" : 13753
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "This shouldn't login with a user",
+      "uid" : "2e83dbd51b6bbff5",
+      "parentUid" : "7003749ae9e20c56ac57249ccfac89b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988840103,
+        "stop" : 1627988850682,
+        "duration" : 10579
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7003749ae9e20c56ac57249ccfac89b4"
+  }, {
+    "name" : "TC_5_Privacy_Policy",
+    "children" : [ {
+      "name" : "This should sign up with privacy policy",
+      "uid" : "a7618e8aa7a09cb6",
+      "parentUid" : "7c83f13e5786693807b86922bd089067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988858470,
+        "stop" : 1627988877308,
+        "duration" : 18838
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7c83f13e5786693807b86922bd089067"
+  }, {
+    "name" : "TC_6_Listing_Data",
+    "children" : [ {
+      "name" : "This should list cameras",
+      "uid" : "1af9b44efabf5824",
+      "parentUid" : "080296ee107115c142cdeb4409dce72b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988888847,
+        "stop" : 1627988900049,
+        "duration" : 11202
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "080296ee107115c142cdeb4409dce72b"
+  }, {
+    "name" : "TC_7_Pagination",
+    "children" : [ {
+      "name" : "This should paging",
+      "uid" : "b25e73ac3ffde844",
+      "parentUid" : "19775e54ef9c735d5b1b41f27bb72203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988908759,
+        "stop" : 1627988927648,
+        "duration" : 18889
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "19775e54ef9c735d5b1b41f27bb72203"
+  }, {
+    "name" : "TC_8_Input_Of_New_Data",
+    "children" : [ {
+      "name" : "This should contact with support",
+      "uid" : "72fdddb199a5f7e",
+      "parentUid" : "bf4bf783f5b9f2bc26f4b4b5bd90e9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988936654,
+        "stop" : 1627988950055,
+        "duration" : 13401
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf4bf783f5b9f2bc26f4b4b5bd90e9c5"
+  }, {
+    "name" : "TC_9_Repetitive_Data_Entry_From_External_Source",
+    "children" : [ {
+      "name" : "[1] Patrik, Proba, Kun Béla utca 78., Baj, 2233, Hungary",
+      "uid" : "ca46f38d17baae47",
+      "parentUid" : "04394999bcb892d93c8a89823036fb0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988957634,
+        "stop" : 1627988975073,
+        "duration" : 17439
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] Pál, Proba, Táncsics Mihály utca 102., Bocs, 4513, Hungary",
+      "uid" : "95cdc97ff4631387",
+      "parentUid" : "04394999bcb892d93c8a89823036fb0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988975102,
+        "stop" : 1627988989230,
+        "duration" : 14128
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Pátony, Proba, Adai Katai kereszteződés 126., Kisujjszállás, 5163, Hungary",
+      "uid" : "717a94ccca319d08",
+      "parentUid" : "04394999bcb892d93c8a89823036fb0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627988989293,
+        "stop" : 1627989003623,
+        "duration" : 14330
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04394999bcb892d93c8a89823036fb0b"
+  } ]
+}
