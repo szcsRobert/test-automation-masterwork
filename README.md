@@ -1,10 +1,26 @@
-# MasterWork - Opencart
-This is my GreenFoxAcademy WasterMork in the Test Automation Course
+# Vizsgaremek - Opencart WebAlkalmazás
+## Az általam választott és tesztelt webalkalmazás elérhetősége:
+[Opencart](http://test-automation-shop2.greenfox.academy/).
+## A manuális tesztesetek leírásának elérhetősége:
+[Google Sheets](https://docs.google.com/spreadsheets/d/1JYA9XmNi5G1CBYqeW2inXdZNMm9DwYv0/edit#gid=1037144427)]
 
-A tesztelésre választott webalkalmazásom az [Opencart](http://test-automation-shop2.greenfox.academy/).
+## Az automata tesztek futtatásának módja:
+- [repository](https://github.com/szcsRobert/test-automation-masterwork)] forkolása, majd klónozása
+- 'gradlew test' futtatása terminálban (az /Opencart mappában állva)
 
-Az automata tesztek futtatásának módja:
-//uploading..
+## Az Allure reportok lekérésének módja:
+- 'allure serve build/allure-results' futtatása terminálban, teszt reportokhoz
 
-[Manuális [teszteseteim](https://docs.google.com/spreadsheets/d/1JYA9XmNi5G1CBYqeW2inXdZNMm9DwYv0/edit#gid=1037144427)][ Allure teszt [report](http://192.168.1.113:6904/index.html) ]
+A teszt report elérhetősége a [repositoryn](https://github.com/szcsRobert/test-automation-masterwork/tree/main/Opencart/build)] belül.
+
+
+
+
+
+
+
+
+
+
+
  
