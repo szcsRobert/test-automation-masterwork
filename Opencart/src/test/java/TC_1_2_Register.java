@@ -33,7 +33,6 @@ public class TC_1_2_Register extends BaseTest {
     registerPage.signUpSuccessfully();
   }
 
-
   @Test
   @Feature("Register")
   @DisplayName("This shouldn't sign up a new User on the page")

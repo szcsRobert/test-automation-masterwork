@@ -1,4 +1,3 @@
-import Pages.CamerasPage;
 import Pages.DesktopsPage;
 import Pages.DesktopsPage2;
 import Pages.HomePage;
@@ -25,7 +24,7 @@ public class TC_7_Pagination extends BaseTest {
 
     homePage.openDesktopsPage();
     desktopsPage.isLoaded();
-    desktopsPage.paging();
+    desktopsPage.pagination();
 
     desktopsPage2.pagingSuccessfully();
   }

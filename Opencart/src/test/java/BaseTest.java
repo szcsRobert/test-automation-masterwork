@@ -23,7 +23,6 @@ public class BaseTest {
   Properties properties;
   static Logger LOG = LoggerFactory.getLogger(BaseTest.class);
 
-
   @BeforeAll
   public void setup() throws IOException {
 

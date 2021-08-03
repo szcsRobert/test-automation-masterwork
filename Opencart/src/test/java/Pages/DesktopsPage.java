@@ -32,9 +32,21 @@ public class DesktopsPage extends BasePage {
   }
 
   @Step("This step is should to open the desktops page 2")
-  public void paging() {
+  public void pagination() {
     LOG.info("Show all desktops page 2 loaded success");
     pagingToPage2.click();
+
+    List<WebElement> pagination =
+        driver.findElements(By.xpath("//*[@id=\"content\"]/div[5]/div[1]/ul"));
+
+    if (pagination.size() > 0) {
+      System.out.println("pagination exists");
+      for (int i = 0; i < pagination.size(); i++) {
+        pagination.get(i).click();
+      }
+    } else {
+      System.out.println("pagination not exists");
+    }
   }
 
   public List<WebElement> getListOfProducts() {
@@ -42,7 +54,7 @@ public class DesktopsPage extends BasePage {
         .findElements(By.xpath("//*[@id=\"content\"]/div[4]/div[*]/div/div[2]/div[1]/h4/a"));
   }
 
-  @Step("This step show the products name")
+  @Step("This step save the products name")
   public void saveProductsName() {
 
     String file = "src/test/resources/listOfProductsName.txt";
@@ -50,22 +62,14 @@ public class DesktopsPage extends BasePage {
 
     List<String> productsList = new ArrayList<>();
 
-    List<WebElement> pagination =
-        driver.findElements(By.xpath("//*[@id=\"content\"]/div[5]/div[1]/ul/li[2]/a"));
-
     try {
       Files.write(filePath, productsList);
     } catch (IOException e) {
       System.out.println("Cannot write the file");
     }
-
     for (WebElement eachProduct : getListOfProducts()) {
       productsList.add(eachProduct.getText());
-//        paging();
-//        WebElement eachProduct2 = driver.findElement(By.xpath("//*[@id=\"content\"]/div[4]/div/div/div[2]/div[1]/h4/a"));
-//        productsList.add(eachProduct2.getText());
     }
-
     try {
       Files.write(filePath, productsList);
     } catch (IOException e) {
