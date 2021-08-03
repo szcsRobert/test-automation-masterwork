@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class RegisterPage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(RegisterPage.class);
 
   @FindBy(id = "input-firstname")
@@ -50,10 +51,6 @@ public class RegisterPage extends BasePage {
 
   @FindBy(css = "#content > form > fieldset:nth-child(2) > div.form-group.required.has-error > div > div")
   WebElement signUpFailed;
-
-
-  public RegisterPage() {
-  }
 
   public RegisterPage(WebDriver driver) {
     super(driver);

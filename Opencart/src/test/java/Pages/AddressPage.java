@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AddressPage extends MyAccountPage {
+
   private static final Logger LOG = LoggerFactory.getLogger(AddressPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr[2]/td[2]/a[1]")
@@ -30,9 +31,6 @@ public class AddressPage extends MyAccountPage {
 
   @FindBy(css = "#account-address > div.alert.alert-success.alert-dismissible")
   WebElement newAddressSuccess;
-
-  public AddressPage() {
-  }
 
   public AddressPage(WebDriver driver) {
     super(driver);

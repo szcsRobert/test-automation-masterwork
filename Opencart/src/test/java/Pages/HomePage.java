@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HomePage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(HomePage.class);
 
   @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")
@@ -33,9 +34,6 @@ public class HomePage extends BasePage {
 
   @FindBy(xpath = "/html/body/footer/div/div/div[2]/ul/li[1]/a")
   WebElement contactUsPage;
-
-  public HomePage() {
-  }
 
   public HomePage(WebDriver driver) {
     super(driver);

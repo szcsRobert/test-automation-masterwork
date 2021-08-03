@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 
 public class BasePage {
+
   protected WebDriver driver;
   protected WebDriverWait wait;
   protected Logger LOG;

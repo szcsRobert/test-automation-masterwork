@@ -1,6 +1,5 @@
 package Pages;
 
-
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MyAccountPage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(MyAccountPage.class);
 
   @FindBy(xpath = "//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")
@@ -18,10 +18,7 @@ public class MyAccountPage extends BasePage {
   WebElement myAccountLogout;
 
   @FindBy(xpath = "//*[@id=\"content\"]/ul[1]/li[3]/a")
-  WebElement modifyYourAdress;
-
-  public MyAccountPage() {
-  }
+  WebElement modifyYourAddress;
 
   public MyAccountPage(WebDriver driver) {
     super(driver);
@@ -37,7 +34,7 @@ public class MyAccountPage extends BasePage {
   @Step("Modify your address book entries should open")
   public void openModifyYourAdress() {
     LOG.info("Modify your address book entries page is loaded");
-    modifyYourAdress.click();
+    modifyYourAddress.click();
   }
 
   @Step("This step is logout the user after a success login")

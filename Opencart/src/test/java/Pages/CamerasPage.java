@@ -8,13 +8,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CamerasPage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(CamerasPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/div[1]/h4/a")
   WebElement targetCanonEos5D;
-
-  public CamerasPage() {
-  }
 
   public CamerasPage(WebDriver driver) {
     super(driver);

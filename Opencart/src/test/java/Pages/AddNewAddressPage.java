@@ -33,13 +33,9 @@ public class AddNewAddressPage extends AddressPage {
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
   WebElement continueButton;
 
-  public AddNewAddressPage() {
-  }
-
   public AddNewAddressPage(WebDriver driver) {
     super(driver);
   }
-
 
   @Step("Add new address page should load successfully")
   public boolean isLoaded() {
@@ -67,5 +63,4 @@ public class AddNewAddressPage extends AddressPage {
     LOG.debug("Click Continue");
     continueButton.click();
   }
-
 }

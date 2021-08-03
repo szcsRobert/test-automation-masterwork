@@ -1,8 +1,5 @@
 package Pages;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-
-
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ContactUsPage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(ContactUsPage.class);
 
   @FindBy(id = "input-name")
@@ -24,9 +22,6 @@ public class ContactUsPage extends BasePage {
 
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input")
   WebElement submit;
-
-  public ContactUsPage() {
-  }
 
   public ContactUsPage(WebDriver driver) {
     super(driver);

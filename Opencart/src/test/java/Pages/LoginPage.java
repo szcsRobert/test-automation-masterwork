@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class LoginPage extends HomePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
 
   @FindBy(id = "input-email")
@@ -27,10 +28,6 @@ public class LoginPage extends HomePage {
 
   @FindBy(xpath = "//*[@id=\"content\"]/div/div[2]/div/form/input")
   WebElement loginFailed;
-
-
-  public LoginPage() {
-  }
 
   public LoginPage(WebDriver driver) {
     super(driver);

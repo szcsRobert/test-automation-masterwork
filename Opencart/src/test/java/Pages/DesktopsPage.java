@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class DesktopsPage extends BasePage {
+
   private static final Logger LOG = LoggerFactory.getLogger(DesktopsPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[5]/div[1]/ul/li[2]/a")

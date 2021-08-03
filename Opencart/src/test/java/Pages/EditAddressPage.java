@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class EditAddressPage extends AddressPage {
+
   private static final Logger LOG = LoggerFactory.getLogger(EditAddressPage.class);
 
   @FindBy(id = "input-firstname")
@@ -16,9 +17,6 @@ public class EditAddressPage extends AddressPage {
 
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
   WebElement continueButton;
-
-  public EditAddressPage() {
-  }
 
   public EditAddressPage(WebDriver driver) {
     super(driver);
