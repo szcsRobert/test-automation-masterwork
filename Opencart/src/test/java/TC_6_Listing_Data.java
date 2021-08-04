@@ -6,7 +6,7 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_6_Listing_Data extends BaseTest {
 
   @Test

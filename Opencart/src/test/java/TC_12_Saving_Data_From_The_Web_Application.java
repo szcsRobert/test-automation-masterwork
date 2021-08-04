@@ -6,13 +6,13 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_12_Saving_Data_From_The_Web_Application extends BaseTest {
 
   @Test
   @Feature("Saving datas")
   @DisplayName("Saving data from the web application")
-  @Description("This test is save a list of data form the page into a text file")
+  @Description("Save the list of products on the first page")
   public void saveDatas() {
     HomePage homePage = new HomePage(driver);
     DesktopsPage desktopsPage = new DesktopsPage(driver);

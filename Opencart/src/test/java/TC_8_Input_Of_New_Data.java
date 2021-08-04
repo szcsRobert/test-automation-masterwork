@@ -7,12 +7,12 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_8_Input_Of_New_Data extends BaseTest {
 
   @Test
   @Feature("Input new data")
-  @DisplayName("This should contact with support")
+  @DisplayName("Contact with support")
   @Description("This test is sending a complaint to the support")
   public void listingCamerasData() {
     HomePage homePage = new HomePage(driver);

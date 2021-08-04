@@ -3,17 +3,19 @@ import Pages.RegisterPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_5_Privacy_Policy extends BaseTest {
 
   @Test
-  @Feature("Register with Privacy Policy check")
-  @DisplayName("This should sign up with privacy policy")
+  @Feature("Registration")
+  @Story("Successful Registration")
+  @DisplayName("Successful user account registration with use privacy statement")
   @Description("This test is make a success register with valid values, and with open the privacy policy")
-  public void signUpWithPpCheck() throws InterruptedException {
+  public void signUpWithPpCheck() {
     HomePage homePage = new HomePage(driver);
     RegisterPage registerPage = new RegisterPage(driver);
 

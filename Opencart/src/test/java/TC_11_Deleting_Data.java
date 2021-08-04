@@ -9,12 +9,12 @@ import java.time.Duration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_11_Deleting_Data extends BaseTest {
 
   @Test
   @Feature("Deleting data")
-  @DisplayName("This should delete an existing data")
+  @DisplayName("Delete mailing address")
   @Description("This test is deleted an address in the address book entries of the user")
   public void deleting_data() {
     HomePage homePage = new HomePage(driver);

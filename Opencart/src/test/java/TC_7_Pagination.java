@@ -7,13 +7,13 @@ import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_7_Pagination extends BaseTest {
 
   @Test
   @Feature("Pagination")
-  @DisplayName("This should paging")
-  @Description("This test is paging between the desktops targets")
+  @DisplayName("Navigate between pages")
+  @Description("Navigate from one full page result list to another")
   public void listingCamerasData() {
     HomePage homePage = new HomePage(driver);
     DesktopsPage desktopsPage = new DesktopsPage(driver);

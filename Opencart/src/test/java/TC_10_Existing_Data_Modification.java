@@ -10,13 +10,13 @@ import java.time.Duration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@Epic("Your Store")
+@Epic("Opencart WebApplication Interactions")
 public class TC_10_Existing_Data_Modification extends BaseTest {
 
   @Test
   @Feature("Existing data modification")
-  @DisplayName("This should modified an existing data")
-  @Description("This test is modified an address in the of the user")
+  @DisplayName("Change mailing address")
+  @Description("This test is modified an address of the user")
   public void modifyExistingData() {
     HomePage homePage = new HomePage(driver);
     LoginPage loginPage = new LoginPage(driver);
