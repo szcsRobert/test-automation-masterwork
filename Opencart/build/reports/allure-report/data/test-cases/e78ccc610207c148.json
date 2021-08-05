@@ -1,0 +1,74 @@
+{
+  "uid" : "e78ccc610207c148",
+  "name" : "Delete mailing address",
+  "fullName" : "TC_11_Deleting_Data.deletingData",
+  "historyId" : "f19fe863a780699a7fbcfc2e0fb6402d",
+  "time" : {
+    "start" : 1628195016768,
+    "stop" : 1628195023597,
+    "duration" : 6829
+  },
+  "description" : "This test is deleted an address in the address book entries of the user",
+  "descriptionHtml" : "<p>This test is deleted an address in the address book entries of the user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test is deleted an address in the address book entries of the user",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "560a177e07aa68bc",
+      "name" : "screenshot",
+      "source" : "560a177e07aa68bc.png",
+      "type" : "image/png",
+      "size" : 84997
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Opencart WebApplication Interactions"
+  }, {
+    "name" : "feature",
+    "value" : "Deleting data"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UP60NKH"
+  }, {
+    "name" : "thread",
+    "value" : "13304@DESKTOP-UP60NKH.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "TC_11_Deleting_Data"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_11_Deleting_Data"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletingData"
+  }, {
+    "name" : "suite",
+    "value" : "TC_11_Deleting_Data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e78ccc610207c148.json",
+  "parameterValues" : [ ]
+}

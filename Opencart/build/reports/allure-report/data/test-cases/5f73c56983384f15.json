@@ -1,0 +1,77 @@
+{
+  "uid" : "5f73c56983384f15",
+  "name" : "Successful user login with previously registered data",
+  "fullName" : "TC_3_4_Login.loginSuccess",
+  "historyId" : "f28983528146992d9062ed0b26ed3a31",
+  "time" : {
+    "start" : 1628195072355,
+    "stop" : 1628195075379,
+    "duration" : 3024
+  },
+  "description" : "This test is make a success login with a valid user",
+  "descriptionHtml" : "<p>This test is make a success login with a valid user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test is make a success login with a valid user",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3851f6fafd0e7ce",
+      "name" : "screenshot",
+      "source" : "c3851f6fafd0e7ce.png",
+      "type" : "image/png",
+      "size" : 83922
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Opencart WebApplication Interactions"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "Successful Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UP60NKH"
+  }, {
+    "name" : "thread",
+    "value" : "13304@DESKTOP-UP60NKH.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginSuccess"
+  }, {
+    "name" : "suite",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f73c56983384f15.json",
+  "parameterValues" : [ ]
+}

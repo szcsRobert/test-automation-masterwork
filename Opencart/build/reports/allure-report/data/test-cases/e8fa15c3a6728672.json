@@ -1,0 +1,83 @@
+{
+  "uid" : "e8fa15c3a6728672",
+  "name" : "Successful user account registration with valid data",
+  "fullName" : "TC_1_2_Register.signUp",
+  "historyId" : "d4036f705b760d18d549c88aa277a545",
+  "time" : {
+    "start" : 1628195056609,
+    "stop" : 1628195061212,
+    "duration" : 4603
+  },
+  "description" : "This test is make a success register with valid values, and with Your Account Has Been Created! - message",
+  "descriptionHtml" : "<p>This test is make a success register with valid values, and with Your Account Has Been Created! - message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test is make a success register with valid values, and with Your Account Has Been Created! - message",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34fda86d31e05576",
+      "name" : "screenshot",
+      "source" : "34fda86d31e05576.png",
+      "type" : "image/png",
+      "size" : 83068
+    }, {
+      "uid" : "a6d35d061b0b5890",
+      "name" : "screenshot",
+      "source" : "a6d35d061b0b5890.png",
+      "type" : "image/png",
+      "size" : 78931
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Opencart WebApplication Interactions"
+  }, {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "story",
+    "value" : "Successful Registration"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UP60NKH"
+  }, {
+    "name" : "thread",
+    "value" : "13304@DESKTOP-UP60NKH.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "TC_1_2_Register"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_1_2_Register"
+  }, {
+    "name" : "testMethod",
+    "value" : "signUp"
+  }, {
+    "name" : "suite",
+    "value" : "TC_1_2_Register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8fa15c3a6728672.json",
+  "parameterValues" : [ ]
+}

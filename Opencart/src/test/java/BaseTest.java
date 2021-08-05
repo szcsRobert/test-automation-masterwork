@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Attachment;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
@@ -7,6 +8,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -43,12 +46,19 @@ public class BaseTest {
   @BeforeEach
   public void openHomePage() {
     driver.get("http://test-automation-shop2.greenfox.academy");
+
     wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+
     driver.manage().window().maximize();
   }
 
   @AfterAll
   public void tearDown() {
     driver.quit();
+  }
+
+  @Attachment("screenshot")
+  public byte[] makeScreenshot() {
+    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
   }
 }

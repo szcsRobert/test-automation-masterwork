@@ -8,6 +8,7 @@ import Pages.MyAccountPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import java.time.Duration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
@@ -19,7 +20,8 @@ public class TC_11_Deleting_Data extends BaseTest {
   @Test
   @DisplayName("Delete mailing address")
   @Description("This test is deleted an address in the address book entries of the user")
-  public void deleting_data() {
+  public void deletingData() {
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
     MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
@@ -32,7 +34,7 @@ public class TC_11_Deleting_Data extends BaseTest {
 
     myAccountPage.openModifyYourAddress().click();
     addressPage.deleteAddressButton().click();
-
+    makeScreenshot();
     assertThat(addressPage.deleteAddressSuccess().getText())
         .isEqualTo("Your address has been successfully deleted");
   }

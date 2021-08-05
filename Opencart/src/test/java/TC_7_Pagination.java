@@ -18,7 +18,7 @@ public class TC_7_Pagination extends BaseTest {
   @Test
   @DisplayName("Navigate between pages")
   @Description("Navigate from one full page result list to another")
-  public void listingCamerasData() {
+  public void PaginationTest() {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     DesktopsPage desktopsPage = PageFactory.initElements(driver, DesktopsPage.class);
 
@@ -26,6 +26,7 @@ public class TC_7_Pagination extends BaseTest {
     assertThat(driver.getTitle()).isEqualTo("Desktops");
     desktopsPage.pagination();
 
+    makeScreenshot();
     assertThat(driver.findElement(By.linkText("Dell Inspiron 4563")).isDisplayed()).isTrue();
   }
 }

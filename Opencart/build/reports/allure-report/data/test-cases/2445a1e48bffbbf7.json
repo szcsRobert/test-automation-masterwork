@@ -1,0 +1,77 @@
+{
+  "uid" : "2445a1e48bffbbf7",
+  "name" : "This shouldn't login with a user",
+  "fullName" : "TC_3_4_Login.loginFailed",
+  "historyId" : "1ed157a8733d3a52ad41f6517be421b5",
+  "time" : {
+    "start" : 1628195065164,
+    "stop" : 1628195072339,
+    "duration" : 7175
+  },
+  "description" : "This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message",
+  "descriptionHtml" : "<p>This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test is make an unsuccess login with user, and with  Warning: No match for E-Mail Address and/or Password. - message",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "138589826880f7f0",
+      "name" : "screenshot",
+      "source" : "138589826880f7f0.png",
+      "type" : "image/png",
+      "size" : 76134
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Opencart WebApplication Interactions"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UP60NKH"
+  }, {
+    "name" : "thread",
+    "value" : "13304@DESKTOP-UP60NKH.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFailed"
+  }, {
+    "name" : "suite",
+    "value" : "TC_3_4_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2445a1e48bffbbf7.json",
+  "parameterValues" : [ ]
+}

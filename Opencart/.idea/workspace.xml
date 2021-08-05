@@ -25,106 +25,65 @@
     <list default="true" id="e1944db5-240c-4d20-9bb8-d1989a2bba63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/0593485b-65ea-4999-98c1-c6b78b635783-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/0f09fa4a-8add-4afc-970b-3ff604b0e03d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/106891e1-a8ea-4129-9e96-61d1b6fc15d5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/14f515d4-b2f0-4bd2-a979-f760eb69c342-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/1ce80bd0-bf23-4079-8209-3e0bd39b1463-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/2136a5f3-d24b-4356-994d-e45cd1dbf196-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/2ede2063-8c93-4525-ad4e-8806f824112d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/3bb79c59-7d7a-4158-a4aa-d6f65045b1f9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/634f1fbc-a3e1-49fa-878e-dd23fce55efd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/72307ae3-1b97-4184-85cc-b1a3a9ee35b3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/7ca3074e-04d6-449a-ae5e-9a13f4614820-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e3e6a26e-a9cf-4727-9607-a6670524eaf1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/e61e5bd9-13b9-4e03-8054-e03eb92d46a3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/fcd2d347-7449-4302-b132-8a9f2929062e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/ffdc7aaf-4e34-49b7-af06-6027c63e8e80-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/AddNewAddressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/AddNewAddressPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/AddressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/AddressPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/CamerasPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/ContactUsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/ContactUsSuccessPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/DesktopsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/DesktopsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/DesktopsPage2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/EditAddressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/EditAddressPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/MyAccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Pages/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_10_Existing_Data_Modification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_10_Existing_Data_Modification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/040d8dd1-b0a4-4d61-9469-b69c9ae5ced9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/04688058-dd73-4a37-b20d-826f121e4416-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/189e1a56-e761-4701-9857-fb4fddaaa8e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/4c5161b5-a25b-4f2f-9869-793835e30ff3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/76035cd5-4289-4cfa-8094-f366b0ad5131-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/7cee1798-3c4e-46c5-b743-c049235400ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8059e6a3-f986-439e-8492-d1c13b8aff83-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/96935bb5-c699-4caf-9c17-04befda8b4cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ca619bee-5378-4096-aa04-e210a3f50c7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ee795a2b-e9e5-458a-8935-8c6656b84b50-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f071d96b-3d89-41e0-a6d9-ccddd9c2561f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f8495b68-b1f7-4fb4-b23e-517689ac87d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fbc50079-115f-4695-b12a-e8d36c0ffef1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fdce3b4b-ee1e-417d-8e2f-eb46d3c93345-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_11_Deleting_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_11_Deleting_Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_12_Saving_Data_From_The_Web_Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_12_Saving_Data_From_The_Web_Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_13_Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_13_Logout.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_1_2_Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_1_2_Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_3_4_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_3_4_Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_5_Privacy_Policy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_5_Privacy_Policy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_6_Listing_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_6_Listing_Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_7_Pagination.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_7_Pagination.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_8_Input_Of_New_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_8_Input_Of_New_Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/TC_9_Repetitive_Data_Entry_From_External_Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TC_9_Repetitive_Data_Entry_From_External_Source.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_11_Deleting_Data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_12_Saving_Data_From_The_Web_Application.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_5_Privacy_Policy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_6_Listing_Data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_7_Pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_9_Repetitive_Data_Entry_From_External_Source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_10_Existing_Data_Modification.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_11_Deleting_Data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_12_Saving_Data_From_The_Web_Application.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_13_Logout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_1_2_Register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_3_4_Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_5_Privacy_Policy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_6_Listing_Data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_7_Pagination.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_8_Input_Of_New_Data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_9_Repetitive_Data_Entry_From_External_Source.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_10_Existing_Data_Modification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_11_Deleting_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_11_Deleting_Data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_12_Saving_Data_From_The_Web_Application.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_12_Saving_Data_From_The_Web_Application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_13_Logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_1_2_Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_3_4_Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_5_Privacy_Policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_5_Privacy_Policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_6_Listing_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_6_Listing_Data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_7_Pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_7_Pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_8_Input_Of_New_Data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_9_Repetitive_Data_Entry_From_External_Source.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TC_9_Repetitive_Data_Entry_From_External_Source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_10_Existing_Data_Modification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_10_Existing_Data_Modification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_11_Deleting_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_11_Deleting_Data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_12_Saving_Data_From_The_Web_Application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_12_Saving_Data_From_The_Web_Application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_13_Logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_13_Logout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_1_2_Register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_1_2_Register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_3_4_Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_3_4_Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_5_Privacy_Policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_5_Privacy_Policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_6_Listing_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_6_Listing_Data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_7_Pagination.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_7_Pagination.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_8_Input_Of_New_Data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_8_Input_Of_New_Data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TC_9_Repetitive_Data_Entry_From_External_Source.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TC_9_Repetitive_Data_Entry_From_External_Source.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddNewAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddNewAddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CamerasPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ContactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ContactUsSuccessPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DesktopsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DesktopsPage2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/EditAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/EditAddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LogoutPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TC_10_Existing_Data_Modification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_10_Existing_Data_Modification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TC_11_Deleting_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_11_Deleting_Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_12_Saving_Data_From_The_Web_Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_12_Saving_Data_From_The_Web_Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TC_13_Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_13_Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TC_1_2_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_1_2_Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TC_3_4_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_3_4_Login.java" afterDir="false" />
@@ -189,13 +148,13 @@
       <recent name="C:\Users\Robi\greenfox\MasterWork\test-automation-masterwork\Opencart\build\allure-results" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TC_9_Repetitive_Data_Entry_From_External_Source">
-    <configuration name="TC_10_Existing_Data_Modification.modifyExistingData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TC_11_Deleting_Data">
+    <configuration name="TC_11_Deleting_Data" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TC_10_Existing_Data_Modification.modifyExistingData&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TC_11_Deleting_Data&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -228,12 +187,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TC_12_Saving_Data_From_The_Web_Application" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TC_5_Privacy_Policy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TC_12_Saving_Data_From_The_Web_Application&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TC_5_Privacy_Policy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TC_8_Input_Of_New_Data.listingCamerasData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TC_8_Input_Of_New_Data.listingCamerasData&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -266,32 +244,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TC_9_Repetitive_Data_Entry_From_External_Source.addNewAddresses" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TC_9_Repetitive_Data_Entry_From_External_Source.addNewAddresses&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TC_9_Repetitive_Data_Entry_From_External_Source" />
-        <item itemvalue="Gradle.TC_9_Repetitive_Data_Entry_From_External_Source.addNewAddresses" />
-        <item itemvalue="Gradle.TC_12_Saving_Data_From_The_Web_Application" />
+        <item itemvalue="Gradle.TC_11_Deleting_Data" />
         <item itemvalue="Gradle.TC_11_Deleting_Data.deleting_data" />
-        <item itemvalue="Gradle.TC_10_Existing_Data_Modification.modifyExistingData" />
+        <item itemvalue="Gradle.TC_9_Repetitive_Data_Entry_From_External_Source" />
+        <item itemvalue="Gradle.TC_8_Input_Of_New_Data.listingCamerasData" />
+        <item itemvalue="Gradle.TC_5_Privacy_Policy" />
       </list>
     </recent_temporary>
   </component>
@@ -331,22 +290,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="467" y="138" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1628155108836" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1628174218633">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1628190144961">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1628174218633" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1628174218632">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628190144961" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1628190144961">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1628174218632" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1628174218631">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628190144961" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1628190144961">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1628174218631" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1628174218632">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628190144961" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1628190144961">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1628174218632" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628190144961" />
     <state x="274" y="67" key="new project wizard" timestamp="1628155102194">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

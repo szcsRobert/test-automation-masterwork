@@ -1,0 +1,253 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Opencart WebApplication Interactions",
+    "children" : [ {
+      "name" : "Existing data modification",
+      "children" : [ {
+        "name" : "Change mailing address",
+        "uid" : "b7874337840824ad",
+        "parentUid" : "ee972361d745e3fcc6ac8639f9f82558",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628194998201,
+          "stop" : 1628195009985,
+          "duration" : 11784
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee972361d745e3fcc6ac8639f9f82558"
+    }, {
+      "name" : "Deleting data",
+      "children" : [ {
+        "name" : "Delete mailing address",
+        "uid" : "e78ccc610207c148",
+        "parentUid" : "af3ccb0b3d125df387ba313a3523ca6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195016768,
+          "stop" : 1628195023597,
+          "duration" : 6829
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af3ccb0b3d125df387ba313a3523ca6d"
+    }, {
+      "name" : "Saving datas",
+      "children" : [ {
+        "name" : "Saving data from the web application",
+        "uid" : "2c84827efeb70c96",
+        "parentUid" : "5c7e90a95954d90e83a21e64a4180fe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195028376,
+          "stop" : 1628195032936,
+          "duration" : 4560
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c7e90a95954d90e83a21e64a4180fe5"
+    }, {
+      "name" : "Logout",
+      "children" : [ {
+        "name" : "This should logout the user",
+        "uid" : "a51a5a0ec9e8d4d0",
+        "parentUid" : "77dee10cf2e60696093c9810df17b4a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195036858,
+          "stop" : 1628195044810,
+          "duration" : 7952
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77dee10cf2e60696093c9810df17b4a4"
+    }, {
+      "name" : "Registration",
+      "children" : [ {
+        "name" : "Failed Registration",
+        "children" : [ {
+          "name" : "Failed to register user account with corrupted confirmation password",
+          "uid" : "18a066f73ff6503e",
+          "parentUid" : "1df1d9777f35a01a7c644be6608f4bf2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628195049511,
+            "stop" : 1628195056600,
+            "duration" : 7089
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1df1d9777f35a01a7c644be6608f4bf2"
+      }, {
+        "name" : "Successful Registration",
+        "children" : [ {
+          "name" : "Successful user account registration with valid data",
+          "uid" : "e8fa15c3a6728672",
+          "parentUid" : "d26f28b114ef8d11bc8f12ba2f66d072",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628195056609,
+            "stop" : 1628195061212,
+            "duration" : 4603
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Successful user account registration with use privacy statement",
+          "uid" : "2c652cc57b633d37",
+          "parentUid" : "d26f28b114ef8d11bc8f12ba2f66d072",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628195079568,
+            "stop" : 1628195086558,
+            "duration" : 6990
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d26f28b114ef8d11bc8f12ba2f66d072"
+      } ],
+      "uid" : "cb231cf029fbff994dc10ea17853e4f6"
+    }, {
+      "name" : "Login",
+      "children" : [ {
+        "name" : "This shouldn't login with a user",
+        "uid" : "2445a1e48bffbbf7",
+        "parentUid" : "facdcb9cfb027cb423fed0929fe75f31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195065164,
+          "stop" : 1628195072339,
+          "duration" : 7175
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This shouldn't login with a user",
+        "uid" : "2445a1e48bffbbf7",
+        "parentUid" : "facdcb9cfb027cb423fed0929fe75f31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195065164,
+          "stop" : 1628195072339,
+          "duration" : 7175
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful Login",
+        "children" : [ {
+          "name" : "Successful user login with previously registered data",
+          "uid" : "5f73c56983384f15",
+          "parentUid" : "dcdf3ef2ecadbc051aaf42d1ded4aef2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628195072355,
+            "stop" : 1628195075379,
+            "duration" : 3024
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dcdf3ef2ecadbc051aaf42d1ded4aef2"
+      } ],
+      "uid" : "facdcb9cfb027cb423fed0929fe75f31"
+    }, {
+      "name" : "Listing Data",
+      "children" : [ {
+        "name" : "This should list cameras",
+        "uid" : "4048e58caffd123c",
+        "parentUid" : "5f743a59b5bd77cb2b901b2be8619979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195090403,
+          "stop" : 1628195095846,
+          "duration" : 5443
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f743a59b5bd77cb2b901b2be8619979"
+    }, {
+      "name" : "Pagination",
+      "children" : [ {
+        "name" : "Navigate between pages",
+        "uid" : "3ddd87dbcb7d5326",
+        "parentUid" : "122c9e967a12540161578a346a9bfec2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195100625,
+          "stop" : 1628195105320,
+          "duration" : 4695
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "122c9e967a12540161578a346a9bfec2"
+    }, {
+      "name" : "Input new data",
+      "children" : [ {
+        "name" : "Contact with support",
+        "uid" : "a4de34b490e9dad2",
+        "parentUid" : "d0c1452a178358ea7b0b16b0787ca0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195109511,
+          "stop" : 1628195117845,
+          "duration" : 8334
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0c1452a178358ea7b0b16b0787ca0f8"
+    }, {
+      "name" : "Repetitive data entry",
+      "children" : [ {
+        "name" : "Input Value = Name: Proba Patrik Address: 2233 Baj, Kun Béla utca 78. Hungary",
+        "uid" : "aa7e14ef083732e0",
+        "parentUid" : "04454bfe76e9a4845d88c2b5be122ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195122858,
+          "stop" : 1628195132601,
+          "duration" : 9743
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Input Value = Name: Proba Pál Address: 4513 Bocs, Táncsics Mihály utca 102. Hungary",
+        "uid" : "dd5cdd8e5da0eac9",
+        "parentUid" : "04454bfe76e9a4845d88c2b5be122ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195132619,
+          "stop" : 1628195139881,
+          "duration" : 7262
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Input Value = Name: Proba Pátony Address: 5163 Kisujjszállás, Adai Katai kereszteződés 126. Hungary",
+        "uid" : "3b264eeefa7c312d",
+        "parentUid" : "04454bfe76e9a4845d88c2b5be122ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195139894,
+          "stop" : 1628195146888,
+          "duration" : 6994
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04454bfe76e9a4845d88c2b5be122ee9"
+    } ],
+    "uid" : "2f469a60608f594af09a87d4e049487c"
+  } ]
+}

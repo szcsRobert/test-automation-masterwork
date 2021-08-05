@@ -21,6 +21,7 @@ public class TC_6_Listing_Data extends BaseTest {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
 
     homePage.getCamerasPage().click();
+    makeScreenshot();
     assertThat(driver.findElement(By.linkText("Canon EOS 5D")).isDisplayed()).isTrue();
   }
 }

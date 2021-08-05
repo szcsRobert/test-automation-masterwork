@@ -1,0 +1,151 @@
+[ {
+  "uid" : "3b264eeefa7c312d",
+  "name" : "Input Value = Name: Proba Pátony Address: 5163 Kisujjszállás, Adai Katai kereszteződés 126. Hungary",
+  "time" : {
+    "start" : 1628195139894,
+    "stop" : 1628195146888,
+    "duration" : 6994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4de34b490e9dad2",
+  "name" : "Contact with support",
+  "time" : {
+    "start" : 1628195109511,
+    "stop" : 1628195117845,
+    "duration" : 8334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c652cc57b633d37",
+  "name" : "Successful user account registration with use privacy statement",
+  "time" : {
+    "start" : 1628195079568,
+    "stop" : 1628195086558,
+    "duration" : 6990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2445a1e48bffbbf7",
+  "name" : "This shouldn't login with a user",
+  "time" : {
+    "start" : 1628195065164,
+    "stop" : 1628195072339,
+    "duration" : 7175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e78ccc610207c148",
+  "name" : "Delete mailing address",
+  "time" : {
+    "start" : 1628195016768,
+    "stop" : 1628195023597,
+    "duration" : 6829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a51a5a0ec9e8d4d0",
+  "name" : "This should logout the user",
+  "time" : {
+    "start" : 1628195036858,
+    "stop" : 1628195044810,
+    "duration" : 7952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa7e14ef083732e0",
+  "name" : "Input Value = Name: Proba Patrik Address: 2233 Baj, Kun Béla utca 78. Hungary",
+  "time" : {
+    "start" : 1628195122858,
+    "stop" : 1628195132601,
+    "duration" : 9743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18a066f73ff6503e",
+  "name" : "Failed to register user account with corrupted confirmation password",
+  "time" : {
+    "start" : 1628195049511,
+    "stop" : 1628195056600,
+    "duration" : 7089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c84827efeb70c96",
+  "name" : "Saving data from the web application",
+  "time" : {
+    "start" : 1628195028376,
+    "stop" : 1628195032936,
+    "duration" : 4560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4048e58caffd123c",
+  "name" : "This should list cameras",
+  "time" : {
+    "start" : 1628195090403,
+    "stop" : 1628195095846,
+    "duration" : 5443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ddd87dbcb7d5326",
+  "name" : "Navigate between pages",
+  "time" : {
+    "start" : 1628195100625,
+    "stop" : 1628195105320,
+    "duration" : 4695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f73c56983384f15",
+  "name" : "Successful user login with previously registered data",
+  "time" : {
+    "start" : 1628195072355,
+    "stop" : 1628195075379,
+    "duration" : 3024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7874337840824ad",
+  "name" : "Change mailing address",
+  "time" : {
+    "start" : 1628194998201,
+    "stop" : 1628195009985,
+    "duration" : 11784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8fa15c3a6728672",
+  "name" : "Successful user account registration with valid data",
+  "time" : {
+    "start" : 1628195056609,
+    "stop" : 1628195061212,
+    "duration" : 4603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd5cdd8e5da0eac9",
+  "name" : "Input Value = Name: Proba Pál Address: 4513 Bocs, Táncsics Mihály utca 102. Hungary",
+  "time" : {
+    "start" : 1628195132619,
+    "stop" : 1628195139881,
+    "duration" : 7262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

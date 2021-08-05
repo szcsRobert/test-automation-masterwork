@@ -1,0 +1,193 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-UP60NKH",
+    "children" : [ {
+      "name" : "13304@DESKTOP-UP60NKH.Test worker(11)",
+      "children" : [ {
+        "name" : "Delete mailing address",
+        "uid" : "e78ccc610207c148",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195016768,
+          "stop" : 1628195023597,
+          "duration" : 6829
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful user account registration with valid data",
+        "uid" : "e8fa15c3a6728672",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195056609,
+          "stop" : 1628195061212,
+          "duration" : 4603
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Input Value = Name: Proba Pál Address: 4513 Bocs, Táncsics Mihály utca 102. Hungary",
+        "uid" : "dd5cdd8e5da0eac9",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195132619,
+          "stop" : 1628195139881,
+          "duration" : 7262
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Navigate between pages",
+        "uid" : "3ddd87dbcb7d5326",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195100625,
+          "stop" : 1628195105320,
+          "duration" : 4695
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Input Value = Name: Proba Patrik Address: 2233 Baj, Kun Béla utca 78. Hungary",
+        "uid" : "aa7e14ef083732e0",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195122858,
+          "stop" : 1628195132601,
+          "duration" : 9743
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Saving data from the web application",
+        "uid" : "2c84827efeb70c96",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195028376,
+          "stop" : 1628195032936,
+          "duration" : 4560
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should list cameras",
+        "uid" : "4048e58caffd123c",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195090403,
+          "stop" : 1628195095846,
+          "duration" : 5443
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contact with support",
+        "uid" : "a4de34b490e9dad2",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195109511,
+          "stop" : 1628195117845,
+          "duration" : 8334
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This should logout the user",
+        "uid" : "a51a5a0ec9e8d4d0",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195036858,
+          "stop" : 1628195044810,
+          "duration" : 7952
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful user account registration with use privacy statement",
+        "uid" : "2c652cc57b633d37",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195079568,
+          "stop" : 1628195086558,
+          "duration" : 6990
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Failed to register user account with corrupted confirmation password",
+        "uid" : "18a066f73ff6503e",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195049511,
+          "stop" : 1628195056600,
+          "duration" : 7089
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This shouldn't login with a user",
+        "uid" : "2445a1e48bffbbf7",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195065164,
+          "stop" : 1628195072339,
+          "duration" : 7175
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful user login with previously registered data",
+        "uid" : "5f73c56983384f15",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195072355,
+          "stop" : 1628195075379,
+          "duration" : 3024
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Input Value = Name: Proba Pátony Address: 5163 Kisujjszállás, Adai Katai kereszteződés 126. Hungary",
+        "uid" : "3b264eeefa7c312d",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628195139894,
+          "stop" : 1628195146888,
+          "duration" : 6994
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Change mailing address",
+        "uid" : "b7874337840824ad",
+        "parentUid" : "18030c74780c530b6f894506c6c8147b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628194998201,
+          "stop" : 1628195009985,
+          "duration" : 11784
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18030c74780c530b6f894506c6c8147b"
+    } ],
+    "uid" : "aea555e4f573254cdcb420228374fcbd"
+  } ]
+}

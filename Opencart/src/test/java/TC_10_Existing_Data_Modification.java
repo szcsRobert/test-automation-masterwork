@@ -35,6 +35,7 @@ public class TC_10_Existing_Data_Modification extends BaseTest {
     addressPage.editAddressButton().click();
 
     editAddressPage.modifyFirstName("Patrik");
+    makeScreenshot();
     assertThat(addressPage.editAddressSuccess().getText())
         .isEqualTo("Your address has been successfully updated");
   }
