@@ -1,3 +1,6 @@
+import static org.assertj.core.api.Assertions.assertThat;
+
+
 import Pages.AddressPage;
 import Pages.HomePage;
 import Pages.LoginPage;
@@ -5,37 +8,32 @@ import Pages.MyAccountPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import java.time.Duration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.support.PageFactory;
 
 @Epic("Opencart WebApplication Interactions")
+@Feature("Deleting data")
 public class TC_11_Deleting_Data extends BaseTest {
 
   @Test
-  @Feature("Deleting data")
   @DisplayName("Delete mailing address")
   @Description("This test is deleted an address in the address book entries of the user")
   public void deleting_data() {
-    HomePage homePage = new HomePage(driver);
-    LoginPage loginPage = new LoginPage(driver);
-    MyAccountPage myAccountPage = new MyAccountPage(driver);
-    AddressPage addressPage = new AddressPage(driver);
-
-    homePage.open();
-    homePage.isLoaded();
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+    MyAccountPage myAccountPage = PageFactory.initElements(driver, MyAccountPage.class);
+    AddressPage addressPage = PageFactory.initElements(driver, AddressPage.class);
 
     homePage.openLoginPage();
-    loginPage.isLoaded();
 
     loginPage.login("probapet@gmail.com",
         "asddsa");
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-    myAccountPage.isLoaded();
 
-    myAccountPage.openModifyYourAdress();
-    addressPage.isLoaded();
-    addressPage.deleteAddress();
-    addressPage.deleteAddressSuccess();
+    myAccountPage.openModifyYourAddress().click();
+    addressPage.deleteAddressButton().click();
+
+    assertThat(addressPage.deleteAddressSuccess().getText())
+        .isEqualTo("Your address has been successfully deleted");
   }
 }

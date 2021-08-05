@@ -1,18 +1,10 @@
 package Pages;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-
-
-import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class AddressPage extends MyAccountPage {
-
-  private static final Logger LOG = LoggerFactory.getLogger(AddressPage.class);
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[1]/table/tbody/tr[2]/td[2]/a[1]")
   WebElement editAddressButton;
@@ -36,49 +28,27 @@ public class AddressPage extends MyAccountPage {
     super(driver);
   }
 
-  @Step("Address page should load successfully")
-  public boolean isLoaded() {
-    LOG.info("Address page loaded success");
-    return driver.getCurrentUrl()
-        .equals("http://test-automation-shop2.greenfox.academy/index.php?route=account/address");
+  public WebElement editAddressButton() {
+    return editAddressButton;
   }
 
-  @Step("Edit address page should open")
-  public void editExistingAddress() {
-    LOG.info("Edit address page is opened");
-    editAddressButton.click();
+  public WebElement deleteAddressButton() {
+    return deleteAddressButton;
   }
 
-  @Step("This step should delete an exist address")
-  public void deleteAddress() {
-    LOG.info("This step deleted an exist address");
-    deleteAddressButton.click();
+  public WebElement addNewAddressButton() {
+    return newAddressButton;
   }
 
-  @Step("This step should add a new address")
-  public void addNewAddress() {
-    LOG.info("This step added a new address");
-    newAddressButton.click();
+  public WebElement editAddressSuccess() {
+    return editAddressSuccess;
   }
 
-  @Step("This step should edit an existing address")
-  public void editAddressSuccess() {
-    LOG.info("The address is edited");
-    assertThat(editAddressSuccess.getText())
-        .isEqualTo("Your address has been successfully updated");
+  public WebElement deleteAddressSuccess() {
+    return deleteAddressSuccess;
   }
 
-  @Step("This step should delete exist address")
-  public void deleteAddressSuccess() {
-    LOG.info("The address is deleted");
-    assertThat(deleteAddressSuccess.getText())
-        .isEqualTo("Your address has been successfully deleted");
-  }
-
-  @Step("This step should add a new address")
-  public void newAddressSuccess() {
-    LOG.info("New address is added");
-    assertThat(newAddressSuccess.getText())
-        .isEqualTo("Your address has been successfully added");
+  public WebElement newAddressSuccess() {
+    return newAddressSuccess;
   }
 }
